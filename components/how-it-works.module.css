@@ -1,0 +1,261 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.realBusinessesReal {
+  flex: 1;
+  position: relative;
+  /* text-decoration: underline; */
+  line-height: 57px;
+  font-weight: lighter;
+}
+
+.trusttitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.createRealLoyaltyAndBoost {
+  flex: 1;
+  position: relative;
+  line-height: 38px;
+  font-weight: 600;
+}
+
+.trusttitle1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-8xl);
+}
+
+.samparka,
+.with {
+  font-weight: 300;
+  font-family: var(--font-poppins);
+}
+
+.samparka {
+  font-weight: 600;
+}
+
+.loyalty {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.increaseYourProfits {
+  font-weight: 300;
+  /* text-align: justify; */
+}
+
+.withSamparkaLoyaltyContainer {
+  flex: 1;
+  position: relative;
+  line-height: 35px;
+  text-align: justify;
+}
+
+.trusttitle2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-base);
+}
+
+.samparka202 {
+  width: 936px;
+  position: relative;
+  height: 325px;
+  object-fit: cover;
+}
+
+
+.samparka202Wrapper,
+.trust {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.trust {
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: 50px 350px;
+  gap: 15px;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-lavender);
+  font-family: var(--font-poppins);
+}
+
+.trust.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}
+
+@media screen and (max-width: 1200px) {
+  .desktopHeroImage {
+    width: 100%;
+    height: 650px;
+    padding-left: var(--padding-0);
+    padding-top: var(--padding-31xl);
+    padding-bottom: var(--padding-0);
+    box-sizing: border-box;
+  }
+
+  .trust {
+    padding: 50px 100px;
+    gap: 25px;
+  }
+
+  .trusttitle1 {
+    font-size: var(--font-size-5xl);
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .createRealLoyaltyAndBoost,
+  .realBusinessesReal,
+  .withSamparkaLoyaltyContainer {
+    font-size: var(--font-size-5xl);
+  }
+
+  .desktopHeroImage {
+    display: none;
+    height: 470px;
+  }
+
+  .trust {
+    padding: 50px 20px;
+    gap: 20px;
+  }
+
+  .trusttitle1 {
+    font-size: var(--font-size-4xl);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .createRealLoyaltyAndBoost,
+  .realBusinessesReal,
+  .withSamparkaLoyaltyContainer {
+    font-size: var(--font-size-4xl);
+  }
+
+  .desktopHeroImage {
+    height: 400px;
+  }
+
+  .trusttitle1 {
+    font-size: var(--font-size-3xl);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .realBusinessesReal {
+    font-size: var(--font-size-2xl);
+    line-height: 22px;
+  }
+
+  .createRealLoyaltyAndBoost {
+    font-size: var(--font-size-2xl);
+    line-height: 25px;
+  }
+
+  .withSamparkaLoyaltyContainer {
+    font-size: var(--font-size-2xl);
+    line-height: 22px;
+  }
+
+  .samparka202 {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+
+  .desktopHeroImage {
+    display: block;
+    width: 100%;
+    height: 250px;
+    padding-bottom: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+
+  .trust {
+    padding: var(--padding-31xl);
+    gap: var(--gap-4xl);
+  }
+
+  .trusttitle1 {
+    font-size: var(--font-size-xl);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .realBusinessesReal {
+    font-size: var(--font-size-mini);
+    line-height: 20px;
+  }
+
+  .createRealLoyaltyAndBoost {
+    font-size: var(--font-size-small);
+    line-height: 20px;
+  }
+
+  .withSamparkaLoyaltyContainer {
+    font-size: var(--font-size-small);
+    line-height: 20px;
+  }
+
+  .samparka202 {
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+  }
+
+  .desktopHeroImage {
+    height: 175px;
+  }
+
+  .trust {
+    gap: var(--gap-small);
+    padding: var(--padding-small);
+  }
+
+  .trusttitle1 {
+    font-size: var(--font-size-small);
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .createRealLoyaltyAndBoost,
+  .realBusinessesReal {
+    font-size: var(--font-size-xsmall);
+  }
+
+  .withSamparkaLoyaltyContainer {
+    font-size: var(--font-size-xsmall);
+  }
+
+  .trust {
+    gap: var(--gap-xsmall);
+  }
+
+  .trusttitle1 {
+    font-size: var(--font-size-xsmall);
+  }
+}

@@ -1,0 +1,224 @@
+.letterLogo1 {
+  width: 223px;
+  position: relative;
+  height: 44px;
+  object-fit: cover;
+  mix-blend-mode: normal;
+}
+.contactless {
+  margin: 0;
+}
+.contactlessEligantInnovativeContainer {
+  position: relative;
+  letter-spacing: -0.04em;
+  line-height: 110%;
+  font-weight: 100;
+}
+.copyright {
+  position: relative;
+  font-size: var(--font-size-xs);
+  line-height: 130%;
+  font-family: var(--font-inter);
+  opacity: 0.4;
+}
+.footermain {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.contactUs {
+  position: relative;
+  letter-spacing: 0.08em;
+  line-height: 140%;
+  text-transform: uppercase;
+  font-weight: 500;
+  opacity: 0.6;
+}
+.anamnagarNepal,
+.samparkaservicesgmailcom {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 140%;
+}
+.samparkaservicesgmailcom {
+  cursor: pointer;
+}
+.anamnagarNepal {
+  font-family: var(--font-inter);
+}
+.contacts,
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.list {
+  gap: var(--gap-9xs);
+  font-size: var(--font-size-sm);
+  font-family: var(--font-poppins);
+}
+.contacts {
+  gap: var(--gap-base);
+}
+.instagram {
+  position: relative;
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.02em;
+  line-height: 130%;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+}
+.item {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-1100);
+  padding: var(--padding-7xs) var(--padding-xl);
+  background-color: transparent;
+  border-radius: var(--br-21xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.whatsapp {
+  position: relative;
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.02em;
+  line-height: 130%;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.contactsParent,
+.footerdescription,
+.socialMedia {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.socialMedia {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.contactsParent,
+.footerdescription {
+  flex-direction: column;
+}
+.contactsParent {
+  align-self: stretch;
+  gap: var(--gap-22xl);
+}
+.footerdescription {
+  flex: 1;
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-inter);
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--color-gray-200);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-131xl) var(--padding-81xl);
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--font-size-14xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .footerdescription {
+    gap: var(--gap-71xl);
+  }
+  .footer {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: row;
+    padding-left: var(--padding-31xl);
+    padding-right: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 669px) {
+  .footerdescription,
+  .footermain {
+    flex: unset;
+    align-self: stretch;
+  }
+  .footer {
+    flex-direction: column;
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 428px) {
+  .contactlessEligantInnovativeContainer {
+    font-size: var(--font-size-14xl);
+  }
+  .contactsParent {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font: auto;
+  }
+  .footer,
+  .footerdescription {
+    align-items: center;
+    justify-content: center;
+    padding-left: var(--padding-0);
+    box-sizing: border-box;
+  }
+  .footer {
+    padding-left: var(--padding-11xl);
+    padding-top: var(--padding-5xl);
+    padding-right: var(--padding-11xl);
+  }
+}
+@media screen and (max-width: 360px) {
+  .contactlessEligantInnovativeContainer {
+    font-weight: 100;
+    font-family: var(--font-poppins);
+    font-size: var(--font-size-14xl);
+  }
+  .footermain {
+    flex-direction: column;
+    flex: unset;
+    align-self: stretch;
+  }
+  .instagram {
+    font-size: var(--font-size-xs);
+  }
+  .contactsParent,
+  .socialMedia {
+    flex-direction: column;
+  }
+  .contactsParent {
+    gap: var(--gap-22xl);
+  }
+  .footer,
+  .footerdescription {
+    align-self: stretch;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .footerdescription {
+    padding: var(--padding-0);
+    flex: unset;
+  }
+  .footer {
+    width: auto;
+    gap: var(--gap-4xl);
+    padding-left: var(--padding-31xl);
+    padding-right: var(--padding-31xl);
+  }
+}

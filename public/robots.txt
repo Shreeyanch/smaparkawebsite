@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Specify the preferred domain with HTTPS
+Host: https://samparka.info
+
+# Specify the location of the sitemap file with HTTPS
+Sitemap: https://samparka.info/sitemap.xml

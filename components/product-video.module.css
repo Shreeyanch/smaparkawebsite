@@ -1,0 +1,313 @@
+.groupChild {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupChild,
+.image9,
+.vectorParent {
+  position: absolute;
+  top: 0;
+}
+.image9 {
+  height: 100%;
+  width: 103.12%;
+  right: -1.87%;
+  bottom: 0;
+  left: -1.25%;
+  background-image: url(/image-9@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.vectorParent {
+  height: 83.38%;
+  width: 100%;
+  right: 0;
+  bottom: 16.62%;
+  left: 0;
+}
+.loyaltyProgram {
+  position: absolute;
+  top: 88.57%;
+  left: 0;
+  letter-spacing: 0.5px;
+  line-height: 25px;
+  font-weight: 600;
+}
+.tutorial3 {
+  position: absolute;
+  height: 42.83%;
+  width: 26.75%;
+  top: 21.47%;
+  right: 73.25%;
+  bottom: 35.71%;
+  left: 0;
+}
+.image11,
+.tutorial2 {
+  position: absolute;
+  bottom: 0;
+}
+.image11 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-image: url(/image-11@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.tutorial2 {
+  height: 42.83%;
+  width: 26.75%;
+  top: 57.17%;
+  right: 46.5%;
+  left: 26.75%;
+}
+.image10,
+.vectorContainer {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.image10 {
+  height: 100%;
+  bottom: 0;
+  background-image: url(/image-10@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.vectorContainer {
+  height: 88.93%;
+  bottom: 11.07%;
+}
+.businessCard {
+  position: absolute;
+  top: 92.39%;
+  left: 3.58%;
+  letter-spacing: 0.5px;
+  line-height: 25px;
+  font-weight: 600;
+}
+.tutorial1 {
+  position: absolute;
+  height: 64.29%;
+  width: 46.5%;
+  top: 0;
+  right: 0;
+  bottom: 35.71%;
+  left: 53.5%;
+}
+.tutorialimagegroup {
+  align-self: stretch;
+  height: auto;
+  position: relative;
+  aspect-ratio: 1.33;
+}
+.groupDiv,
+.image111 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.image111 {
+  height: 99.78%;
+  top: 0.17%;
+  bottom: 0.05%;
+  background-image: url(/image-111@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.groupDiv {
+  height: 82.58%;
+  top: -0.18%;
+  bottom: 17.6%;
+}
+.loyaltyProgram1 {
+  position: absolute;
+  top: 85.16%;
+  left: 0;
+  letter-spacing: 0.5px;
+  line-height: 25px;
+  font-weight: 500;
+}
+.tutorial31 {
+  position: absolute;
+  height: 38.58%;
+  width: 50%;
+  top: 61.43%;
+  right: 50%;
+  bottom: -0.01%;
+  left: 0;
+}
+.image101,
+.vectorParent1 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.image101 {
+  height: 100.16%;
+  top: -0.18%;
+  bottom: 0.02%;
+  background-image: url(/image-101@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.vectorParent1 {
+  height: 82.14%;
+  top: 0.12%;
+  bottom: 17.75%;
+}
+.googleTripadvisor {
+  position: absolute;
+  top: 85.22%;
+  left: 3.33%;
+  letter-spacing: 0.5px;
+  line-height: 25px;
+  font-weight: 500;
+}
+.tutorial21 {
+  position: absolute;
+  height: 35.74%;
+  width: 50%;
+  top: 31.96%;
+  right: 0;
+  bottom: 32.29%;
+  left: 50%;
+}
+.image91,
+.vectorParent2 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.image91 {
+  height: 100.12%;
+  top: -0.07%;
+  bottom: -0.05%;
+  background-image: url(/image-91@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.vectorParent2 {
+  height: 83.55%;
+  top: 0.15%;
+  bottom: 16.3%;
+}
+.businessCard1 {
+  position: absolute;
+  top: 86.49%;
+  left: 0;
+  letter-spacing: 0.5px;
+  line-height: 25px;
+  font-weight: 500;
+}
+.tutorial11 {
+  position: absolute;
+  height: 38.14%;
+  width: 50%;
+  top: -0.04%;
+  right: 50%;
+  bottom: 61.9%;
+  left: 0;
+}
+.tutorialtablet {
+  width: 1200px;
+  height: auto;
+  position: relative;
+  display: none;
+  aspect-ratio: 0.67;
+  font-size: var(--font-size-mini);
+}
+.productvideo,
+.tutorialimages {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.tutorialimages {
+  background-color: var(--color-gray-1000);
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-101xl);
+  gap: var(--gap-3xs);
+  margin-top: -120px;
+  padding-bottom: var(--padding-81xl);
+}
+.productvideo {
+  align-items: center;
+  padding: var(--padding-31xl) var(--padding-0);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .tutorialimages {
+    padding-left: var(--padding-41xl);
+    padding-right: var(--padding-41xl);
+    box-sizing: border-box;
+    margin-top: -300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .tutorialimagegroup {
+    display: none;
+  }
+  .googleTripadvisor {
+    font-size: var(--font-size-mini);
+  }
+  .tutorialtablet {
+    display: flex;
+    align-self: stretch;
+    width: auto;
+    aspect-ratio: 0.67;
+    height: auto;
+  }
+  .tutorialimages {
+    display: flex;
+    padding-left: var(--padding-21xl);
+    padding-top: var(--padding-0);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+    margin-top: -320px;
+  }
+}
+@media screen and (max-width: 428px) {
+  .tutorialtablet {
+    aspect-ratio: 0.67;
+  }
+  .tutorialimages {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 360px) {
+  .businessCard {
+    font-size: var(--font-size-3xs);
+  }
+  .businessCard1 {
+    font-weight: 600;
+    font-family: var(--font-poppins);
+    font-size: var(--font-size-mini);
+  }
+}

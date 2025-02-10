@@ -1,0 +1,127 @@
+.vectorIcon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  width: 12.6px;
+  height: 12.6px;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+
+.iconPack {
+  align-self: stretch;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.letterLogo1 {
+  width: 111px;
+  position: relative;
+  height: 23px;
+  object-fit: fill;
+  mix-blend-mode: normal;
+}
+
+.logo {
+  overflow: hidden;
+  padding: var(--padding-3xs) var(--padding-0);
+}
+
+.logo,
+.mobilenavbarlogo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home,
+.product {
+  align-self: stretch;
+  position: relative;
+  cursor: pointer;
+}
+
+.product {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeParent,
+.menu,
+.mobilenavbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-13xl);
+}
+
+.menu,
+.mobilenavbar {
+  border-radius: var(--br-3xs);
+}
+
+.menu {
+  align-self: stretch;
+  background-color: rgba(3, 0, 0, 0.32);
+  flex-direction: row;
+  padding: var(--padding-13xl);
+}
+
+.mobilenavbar {
+  width: 427px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.77);
+  flex-direction: column;
+  padding: var(--padding-xl) var(--padding-sm);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+
+.productDropdown {
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgba(46, 41, 41, 0.8); */
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 5px;
+  gap: 15px;
+  margin-top: -20px;
+  margin-top: -10px;;
+
+}
+
+.productDropdownItem {
+  font-size: 11px;
+  font-weight: 150;
+  padding: 5px 0;
+  cursor: pointer;
+  color: #fff;
+}
+
+/* .productDropdownItem:hover {
+  background-color: #343333;
+} */

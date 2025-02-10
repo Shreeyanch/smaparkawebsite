@@ -1,0 +1,160 @@
+.container {
+  text-align: center;
+  padding: var(--padding-base);
+  max-width: 1100px;
+  margin: auto;
+}
+.cardImage{
+  width: 100%;           /* Image takes full width of the card */
+  height: 300px;         /* Fixed height (adjust as needed) */
+  object-fit: cover;     /* Ensures the image covers the container without stretching */
+  display: block;        /* Removes any unwanted inline spacing */
+  margin-bottom: var(--gap-3xs);  /* Optional: adds spacing below the image */
+  object-position: top; 
+  
+  
+}
+
+.heading {
+  font-size: var(--font-size-5xl);
+  font-weight: bold;
+}
+
+.subHeading {
+  font-size: var(--font-size-base);
+  color: var(--color-gray-200);
+  margin-bottom: var(--gap-xl);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns on desktop */
+  gap: var(--gap-4xl);
+  grid-template-rows: auto;
+  grid-column-gap: var(--gap-xl);
+}
+
+.card {
+  background: var(--color-gray-700);
+  padding: var(--padding-5xl);
+  border-radius: var(--br-3xs);
+  text-align: left;
+  box-shadow: 0 2px 10px rgba(201, 196, 196, 0.1);
+  font-size: var(--font-size-xs);
+  transition: all 0.3s ease;
+}
+.card h3{
+  font-size: var(--font-size-base);
+
+}
+
+/* Make specific cards larger using grid-column and grid-row */
+.card:nth-child(1) {
+  grid-column: span 1;
+  grid-row: span 2; /* First card spans 2 columns */
+}
+
+.card:nth-child(2) {
+  grid-column: span 1; /* Second card stays regular size */
+}
+
+.card:nth-child(3) {
+  grid-column: span 1; /* Third card stays regular size */
+}
+
+.card:nth-child(4) {
+  grid-column: span 1; /* Fourth card spans 2 columns */
+}
+
+.card:nth-child(5) {
+  grid-column: span 1; /* Fifth card stays regular size */
+  grid-row: span 2; /* First card spans 2 columns */
+
+}
+
+.card:nth-child(6) {
+  grid-column: span 2; /* Sixth card stays regular size */
+
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+  .card:nth-child(1) {
+    grid-column: span 2;
+  }
+  
+  .card:nth-child(2) {
+    grid-column: span 2; /* Second card stays regular size */
+  }
+  
+  .card:nth-child(3) {
+    grid-column: span 1; /* Third card stays regular size */
+  }
+  
+  .card:nth-child(4) {
+    grid-column: span 1; /* Fourth card spans 2 columns */
+  }
+  
+  .card:nth-child(5) {
+    grid-column: span 1; /* Fifth card stays regular size */
+  }
+  
+  .card:nth-child(6) {
+    grid-column: span 1; /* Sixth card stays regular size */
+  }
+  .grid {
+    grid-template-columns: 1fr; /* Stack all items in one column on small screens */
+  }
+
+  .heading {
+    font-size: var(--font-size-4xl);
+  }
+
+  .subHeading {
+    font-size: var(--font-size-3xs);
+  }
+
+  .card {
+    padding: var(--padding-3xs);
+  }
+
+  .green, .white {
+    font-size: var(--font-size-3xs);
+    padding: var(--padding-3xs);
+  }
+
+  .rewards {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr; /* Stack items on smaller screens */
+  }
+
+  .heading {
+    font-size: var(--font-size-4xl);
+  }
+
+  .subHeading {
+    font-size: var(--font-size-3xs);
+  }
+
+  .card {
+    padding: var(--padding-3xs);
+  }
+
+  .green, .white {
+    font-size: var(--font-size-3xs);
+    padding: var(--padding-3xs);
+  }
+
+  .rewards {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

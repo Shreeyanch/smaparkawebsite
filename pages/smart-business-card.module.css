@@ -1,0 +1,392 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.vectorIcon {
+  width: 79.9px;
+  position: relative;
+  height: 79.9px;
+}
+.description,
+.title {
+  align-self: stretch;
+  position: relative;
+  line-height: 22px;
+}
+.title {
+  font-weight: 200;
+}
+.description {
+  font-size: var(--font-size-mini);
+  font-family: var(--font-poppins);
+  font-weight: 200;
+
+}
+.benefitone {
+  flex: 1;
+  border-radius: var(--br-xs);
+  /* background-color: var(--color-gray-500); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl) var(--padding-xs);
+  gap: var(--gap-6xl);
+}
+.vectorIcon1 {
+  width: 57px;
+  position: relative;
+  height: 85px;
+}
+.description1,
+.title1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 22px;
+  font-weight: 200;
+
+}
+.title1 {
+  font-weight: 200;
+}
+.description1 {
+  height: 66px;
+  font-size: var(--font-size-mini);
+  font-family: var(--font-poppins);
+  display: inline-block;
+}
+.benefitsbusinesscard,
+.benefitsframe {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.benefitsframe {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-13xl);
+}
+.benefitsbusinesscard {
+  background-color: var(--color-gray-6000);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-112xl) var(--padding-101xl);
+  opacity: 0;
+  text-align: center;
+  font-family: var(--font-inter);
+}
+.benefitsbusinesscard.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}
+.image2Icon {
+  height: auto;
+  width: 476.5px;
+  position: relative;
+  object-fit: cover;
+  max-width: 50%;
+}
+.smartBusinessCard {
+  position: relative;
+  font-size: var(--font-size-17xl);
+  letter-spacing: 0.06em;
+  line-height: 150%;
+  font-weight: 300;
+}
+.enableSeamlessExchange {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-mid);
+  letter-spacing: -0.04em;
+  line-height: 26.25px;
+  color: var(--color-lavenderblush);
+}
+.layer2Icon {
+  width: 30.5px;
+  position: relative;
+  height: 29px;
+  object-fit: contain;
+}
+.groupIcon {
+  width: 41.3px;
+  position: relative;
+  height: 27px;
+}
+.layer2Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.nfcqrEnabled {
+  position: relative;
+  letter-spacing: 0.06em;
+  line-height: 150%;
+  text-transform: capitalize;
+  font-weight: 300;
+}
+.contactlessSvgrepoCom1 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-12xs);
+  gap: var(--gap-3xs);
+}
+.designIdeasSvgrepoCom1Icon {
+  width: 36px;
+  position: relative;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.orderNow {
+  position: relative;
+  line-height: 30px;
+  font-weight: 600;
+}
+.frame,
+.smartBusinessCardParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame {
+  border-radius: var(--br-181xl);
+  background-color: var(--color-mediumseagreen-100);
+  flex-direction: row;
+  padding: var(--padding-9xs) var(--padding-lg);
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-smi);
+  font-family: var(--font-plus-jakarta-sans);
+}
+.smartBusinessCardParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-11xl-8);
+}
+.business1 {
+  align-self: stretch;
+  background-color: var(--color-gray-700);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-30xl) var(--padding-145xl);
+  gap: var(--gap-157xl);
+  font-size: var(--font-size-xs);
+}
+.productVisuals {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.06em;
+  line-height: 150%;
+  font-weight: 300;
+}
+.step1Icon {
+  width: 376px;
+  position: relative;
+  height: 441px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.howtoorderframe {
+  align-self: stretch;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) var(--padding-31xl);
+  gap: var(--gap-31xl);
+}
+.productvisualsbusinesscard,
+.smartbusinesscard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.productvisualsbusinesscard {
+  align-self: stretch;
+  background-color: var(--color-gray-600);
+  align-items: flex-start;
+  padding: var(--padding-112xl) var(--padding-101xl);
+  gap: var(--gap-31xl);
+  font-size: var(--font-size-17xl);
+}
+.smartbusinesscard {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-black);
+  align-items: center;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .nfcqrEnabled,
+  .smartBusinessCard {
+    font-size: var(--font-size-11xl);
+  }
+  .business1 {
+    flex-direction: row;
+  }
+  .productVisuals {
+    font-size: var(--font-size-11xl);
+  }
+}
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: var(--font-size-5xl);
+  }
+  .description {
+    font-size: var(--font-size-sm);
+  }
+  .benefitone {
+    flex: unset;
+    align-self: stretch;
+  }
+  .title1 {
+    font-size: var(--font-size-5xl);
+  }
+  .benefitsframe {
+    flex-direction: column;
+  }
+  .benefitsbusinesscard {
+    padding: var(--padding-31xl) var(--padding-191xl);
+    box-sizing: border-box;
+  }
+  .image2Icon {
+    min-width: 400px;
+    max-width: 90%;
+  }
+  .smartBusinessCard {
+    font-size: var(--font-size-11xl);
+  }
+  .enableSeamlessExchange {
+    font-size: var(--font-size-sm);
+  }
+  .nfcqrEnabled {
+    font-size: var(--font-size-11xl);
+  }
+  .smartBusinessCardParent {
+    flex: unset;
+    align-self: stretch;
+  }
+  .business1 {
+    flex-direction: column;
+    gap: var(--gap-xl);
+  }
+  .productVisuals {
+    font-size: var(--font-size-11xl);
+  }
+  .howtoorderframe {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 428px) {
+  .title {
+    font-size: var(--font-size-5xl);
+  }
+  .description,
+  .description1 {
+    font-size: var(--font-size-2xs);
+  }
+  .benefitsbusinesscard {
+    padding-left: var(--padding-31xl);
+    padding-right: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+  .image2Icon {
+    display: flex;
+    align-self: stretch;
+    width: auto;
+    min-width: 350px;
+  }
+  .smartBusinessCard {
+    font-size: var(--font-size-6xl);
+    display: flex;
+  }
+  .enableSeamlessExchange {
+    font-weight: 300;
+    font-family: var(--font-poppins);
+    font-size: var(--font-size-smi);
+  }
+  .nfcqrEnabled {
+    display: flex;
+  }
+  .nfcqrEnabled,
+  .orderNow {
+    font-size: var(--font-size-smi);
+  }
+  .smartBusinessCardParent {
+    align-self: stretch;
+    width: auto;
+    padding-left: var(--padding-0);
+    padding-right: var(--padding-0);
+    box-sizing: border-box;
+  }
+  .business1 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .productVisuals {
+    font-size: var(--font-size-6xl);
+    display: flex;
+  }
+  .step1Icon {
+    width: 276px;
+    height: 341px;
+  }
+  .howtoorderframe {
+    flex-direction: row;
+  }
+  .productvisualsbusinesscard {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: var(--padding-0);
+    padding-right: var(--padding-0);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 360px) {
+  .title {
+    font-size: var(--font-size-2xl);
+  }
+  .description {
+    font-size: var(--font-size-2xs);
+    
+  }
+  .title1 {
+    font-size: var(--font-size-2xl);
+  }
+  .description1 {
+    font-size: var(--font-size-2xs);
+  }
+  .benefitsframe {
+    padding-left: var(--padding-0);
+    padding-right: var(--padding-0);
+    box-sizing: border-box;
+  }
+  .benefitsbusinesscard,
+  .howtoorderframe {
+    padding-left: var(--padding-31xl);
+    padding-right: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+  .howtoorderframe {
+    padding-left: var(--padding-14xl);
+    padding-right: var(--padding-11xl);
+  }
+}

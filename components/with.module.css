@@ -1,0 +1,48 @@
+.vectorIcon {
+  width: 28px;
+  position: relative;
+  height: 20.3px;
+}
+.cloudBasedMobileRewards {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.04em;
+  line-height: 26.25px;
+}
+.points,
+.with {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.points {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-mid);
+}
+.with {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkseagreen);
+  flex-direction: column;
+  padding: var(--padding-31xl) var(--padding-51xl);
+  gap: var(--gap-11xl-8);
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-lavenderblush);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 768px) {
+  .cloudBasedMobileRewards {
+    font-size: var(--font-size-sm);
+  }
+}
+@media screen and (max-width: 428px) {
+  .cloudBasedMobileRewards {
+    font-size: var(--font-size-xs);
+  }
+  .with {
+    flex: unset;
+    align-self: stretch;
+  }
+}

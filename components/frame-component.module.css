@@ -1,0 +1,100 @@
+.forSmallBusinesses,
+.smallbiz {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+}
+.smallbiz {
+  font-size: var(--font-size-2xl);
+  font-weight: 600;
+}
+.forSmallBusinesses {
+  font-weight: 500;
+}
+.npr1599mo {
+  font-size: var(--font-size-13xl);
+}
+.npr1599mo,
+.yearlyBilling {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+}
+.rectangle {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 82.5px);
+  border-radius: var(--br-181xl);
+  background-color: var(--color-darkkhaki);
+  width: 165px;
+  height: 60px;
+}
+.getStarted {
+  position: absolute;
+  top: 15px;
+  left: calc(50% - 44.5px);
+  line-height: 30px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.group {
+  width: 165px;
+  position: relative;
+  height: 60px;
+  cursor: pointer;
+  font-size: var(--font-size-base);
+  font-family: var(--font-plus-jakarta-sans);
+}
+.smallbizParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+  text-align: center;
+  font-size: var(--font-size-mid);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .forSmallBusinesses,
+  .npr1599mo,
+  .smallbiz,
+  .yearlyBilling {
+    font-size: var(--font-size-11xl);
+  }
+}
+@media screen and (max-width: 768px) {
+  .forSmallBusinesses,
+  .npr1599mo,
+  .smallbiz,
+  .yearlyBilling {
+    font-size: var(--font-size-11xl);
+  }
+}
+@media screen and (max-width: 428px) {
+  .smallbiz {
+    font-size: var(--font-size-6xl);
+  }
+  .forSmallBusinesses {
+    font-weight: 300;
+    font-family: var(--font-poppins);
+    font-size: var(--font-size-mini);
+  }
+  .npr1599mo {
+    font-size: var(--font-size-10xl);
+  }
+  .yearlyBilling {
+    font-weight: 300;
+    font-family: var(--font-poppins);
+    font-size: var(--font-size-mini);
+    margin-bottom: 25px;
+  }
+  .getStarted {
+    font-size: var(--font-size-base);
+  }
+}

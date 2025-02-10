@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-poppins: Poppins;
+  --font-roboto: Roboto;
+  --font-source-code-pro: "Source Code Pro";
+  --font-sora: Sora;
+  --font-plus-jakarta-sans: "Plus Jakarta Sans";
+  --font-montserrat: Montserrat;
+
+  /* font sizes */
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-3xs: 10px;
+  --font-size-14xl: 33px;
+  --font-size-mid: 17px;
+  --font-size-smi: 13px;
+  --font-size-7xl: 26px;
+  --font-size-5xl: 24px;
+  --font-size-12xl: 31px;
+  --font-size-8xl: 27px;
+  --font-size-2xl: 21px;
+  --font-size-4xl: 23px;
+  --font-size-mini: 15px;
+  --font-size-xl: 20px;
+  --font-size-2xs: 11px;
+  --font-size-13xl: 32px;
+  --font-size-6xl: 25px;
+  --font-size-lg: 18px;
+  --font-size-base: 16px;
+  --font-size-29xl: 48px;
+  --font-size-56xl: 75px;
+  --font-size-81xl: 100px;
+  --font-size-41xl: 60px;
+  --font-size-31xl: 50px;
+  --font-size-34xl: 53px;
+  --font-size-lgi: 19px;
+  --font-size-32xl: 51px;
+  --font-size-22xl: 41px;
+  --font-size-18xl: 37px;
+  --font-size-11xl: 30px;
+  --font-size-10xl: 29px;
+  --font-size-3xl: 22px;
+  --font-size-17xl: 36px;
+  --font-size-20xl: 39px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-gray-100: #fffefe; /* using color from global CSS 1 */
+  --color-gray-200: #0c1213;
+  --color-gray-300: #030000;
+  --color-gray-400: #020000; /* using color from global CSS 1 */
+  --color-gray-500: rgba(255, 255, 255, 0.1); /* using color from global CSS 1 */
+  --color-gray-600: rgba(255, 255, 255, 0.24); /* using color from global CSS 1 */
+  --color-gray-700: rgba(124, 124, 124, 0.3);
+  --color-gray-800: rgba(141, 117, 117, 0.21);
+  --color-gray-900: rgba(255, 255, 255, 0.1);
+  --color-gray-1000: rgba(59, 29, 29, 0);
+  --color-gray-1100: rgba(255, 255, 255, 0.24);
+  --color-gray-6000: rgba(0, 0, 0, 0);
+
+  --color-white: #fff;
+  --studio-darkmode-exportbg-1a202e: #1a202e; /* using color from global CSS 1 */
+  --studio-lightmode-midseparator-dee3eb: #dee3eb; /* using color from global CSS 1 */
+  --studio-darkmode-normalsolid-icons-96a2be: #96a2be; /* using color from global CSS 1 */
+  --color-dimgray: #495367; /* using color from global CSS 1 */
+  --studio-lightmode-lightseparator-ecf0f6: #ecf0f6; /* using color from global CSS 1 */
+  --color-whitesmoke: #ebeef2; /* using color from global CSS 1 */
+  --color-ghostwhite: rgba(247, 248, 255, 0);
+  --color-lavender: #e0e1ed;
+  --color-springgreen: #75fb7a;
+  --color-mediumseagreen: #25ab75;
+  --color-mediumseagreen-100: #25ab75; /* using color from global CSS 2 */
+  --color-mediumseagreen-200: #22a155;
+  --color-seagreen: #188759;
+  --studio-darkmode-popuplabels-5e6a86: #5e6a86; /* using color from global CSS 1 */
+  --color-royalblue: #457eff; /* using color from global CSS 1 */
+  --color-darkseagreen: rgba(131, 176, 132, 0.21);
+  --color-lavenderblush: #ffeeee;
+  --color-darkkhaki: #b6b843;
+  --color-mistyrose: rgba(255, 221, 221, 0.29);
+  --color-lightseagreen: #51b0a2;
+  --color-snow: #fff6f6;
+
+  /* Gaps */
+  --gap-5xl: 24px;
+  --gap-4xl: 23px;
+  --gap-71xl: 90px;
+  --gap-22xl: 41px;
+  --gap-5xs: 8px;
+  --gap-base: 16px;
+  --gap-9xs: 4px;
+  --gap-xl: 20px;
+  --gap-11xl: 30px; /* using gap from global CSS 1 */
+  --gap-smi: 13px; /* using gap from global CSS 1 */
+  --gap-3xs: 10px;
+  --gap-11xs: 2px; /* using gap from global CSS 1 */
+  --gap-31xl: 50px;
+  --gap-63xl: 82px;
+  --gap-101xl: 120px;
+  --gap-mini: 15px;
+  --gap-8xs: 5px;
+  --gap-0: 0px;
+  --gap-2xl: 21px;
+  --gap-12xs: 1px;
+  --gap-27xl: 46px;
+  --gap-13xl: 32px;
+  --gap-51xl: 70px;
+  --gap-11xl-8: 30.8px;
+  --gap-mid: 17px;
+  --gap-4xs: 9px;
+  --gap-75xl: 94px;
+  --gap-157xl: 176px;
+  --gap-6xl: 25px;
+  --gap-7xs: 6px;
+  --gap-21xl: 40px; /* using gap from global CSS 1 */
+  --gap-7xs: 6px; /* using gap from global CSS 1 */
+
+  /* Paddings */
+  --padding-131xl: 150px;
+  --padding-81xl: 100px;
+  --padding-31xl: 50px;
+  --padding-11xl: 30px;
+  --padding-5xl: 24px;
+  --padding-7xs: 6px;
+  --padding-xl: 20px;
+  --padding-115xl: 134px;
+  --padding-sm: 14px;
+  --padding-101xl: 120px; /* using padding from global CSS 1 */
+  --padding-41xl: 60px;
+  --padding-21xl: 40px;
+  --padding-6xl: 25px;
+  --padding-2xl: 21px;
+  --padding-12xs: 1px;
+  --padding-mini: 15px;
+  --padding-22xl: 41px;
+  --padding-67xl: 86px;
+  --padding-3xs: 10px;
+  --padding-34xl: 53px;
+  --padding-13xl: 32px;
+  --padding-37xl: 56px; /* using padding from global CSS 1 */
+  --padding-9xs: 4px;
+  --padding-base: 16px; /* using padding from global CSS 1 */
+  --padding-101xl: 170px; /* using padding from global CSS 2 */
+  --padding-112xl: 131px; /* using padding from global CSS 2 */
+  --padding-108xl: 127px; /* using padding from global CSS 2 */
+  --padding-145xl: 164px; /* using padding from global CSS 2 */
+  --padding-51xl: 70px; /* using padding from global CSS 2 */
+  --padding-88xl: 107px; /* using padding from global CSS 2 */
+  --padding-0: 0px; /* using padding from global CSS 2 */
+  --padding-152xl: 171px; /* using padding from global CSS 2 */
+  --padding-181xl: 200px; /* using padding from global CSS 2 */
+  --padding-71xl: 90px; /* using padding from global CSS 2 */
+  --padding-14xl: 33px; /* using padding from global CSS 2 */
+  --padding-30xl: 49px; /* using padding from global CSS 2 */
+  --padding-lg: 18px; /* using padding from global CSS 2 */
+  --padding-11xs: 2px; /* using padding from global CSS 2 */
+  --padding-191xl: 210px; /* using padding from global CSS 2 */
+  --padding-xs: 12px; /* using padding from global CSS 2 */
+  --padding-40xl: 59px; /* using padding from global CSS 2 */
+  --padding-9xl: 28px; /* using padding from global CSS 2 */
+  --padding-4xs: 9px; /* using padding from global CSS 2 */
+
+  /* Border radiuses */
+  --br-21xl: 40px;
+  --br-3xs: 10px;
+  --br-9xs: 4px;
+  --br-7xs: 6px;
+  --br-5xs: 8px;
+  --br-11xl: 30px;
+  --br-181xl: 200px;
+  --br-2xs-8: 10.8px; /* using border radius from global CSS 1 */
+  --br-xs: 12px; /* using border radius from global CSS 2 */
+}
+
