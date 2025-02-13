@@ -97,7 +97,7 @@ import LoyaltyHeroo from "../components/loyalty-heroo";
 import Whyloyalty from "../components/whyloyalty";
 import HowItWorks from "../components/how-it-works";
 // import StoreDescription from "../components/StoreDescription";
-import Reservation from "../components/Reservation";
+// import Reservation from "../components/Reservation";
 import BusinessSoftware from "../components/BusinessSoftware";
 
 import styles from "./smaparka-loyalty-solution.module.css";
@@ -117,17 +117,21 @@ const SmaparkaLoyaltySolution = () => {
       <Header onHomeTextClick={onHomeTextClick} />
       <LoyaltyHero />
       <LoyaltyHeroo />
-      <Reservation/>
-      <BusinessSoftware/>
-      {/* <StoreDescription/> */}
+      {/* <Reservation/> */}
       <Whyloyalty />
-      <LoyaltyWhy />
-      <HowItWorks />
+
+      <BusinessSoftware/>
+      
       <DataSecurity/>
+
+      {/* <StoreDescription/> */}
+      {/* <LoyaltyWhy /> */}
+      {/* <HowItWorks /> */}
+      {/* <DataSecurity/> */}
       
 
 
-      <LoyaltyReasons />
+      {/* <LoyaltyReasons /> */}
       <div className={styles.loyaltypricing}>
         <div className={styles.discoverAHassleFree}>
           Discover a hassle-free loyalty program that runs on its own.

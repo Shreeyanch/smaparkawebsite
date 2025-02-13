@@ -10,8 +10,9 @@
 .whyLoyalty {
   align-self: stretch;
   position: relative;
-  line-height: 32px;
-  font-weight: 400;
+  font-weight: 600;
+  font-size: 25px; /* var(--font-size-29xl) */
+
 }
 
 .image34Icon {
@@ -42,8 +43,15 @@
 .description1 {
   align-self: stretch;
   position: relative;
-  line-height: 22px;
   font-weight: 300;
+  font-size: 15px; /* var(--font-size-29xl) */
+
+}
+.description2{
+  align-self: stretch;
+  position: relative;
+  font-weight: 700;
+  font-size: 20px; /* var(--font-size-29xl) */
 }
 
 .image36Icon {
@@ -101,6 +109,10 @@
 }
 
 @media screen and (max-width: 440px) {
+  .whyLoyalty {
+    font-size: 23px; 
+    /* Adjusted font size for very small screens */
+  }
 
   .description,
   .description1 {

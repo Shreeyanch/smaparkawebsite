@@ -2,8 +2,7 @@ import { useEffect } from "react";
 import styles from "./DataSecurity.module.css";
 import Image from "next/image";
 
-export default function DataSecurity({className= ""}) {
-
+export default function DataSecurity({ className = "" }) {
   useEffect(() => {
     const scrollAnimElements = document.querySelectorAll(
       "[data-animate-on-scroll]"
@@ -35,7 +34,7 @@ export default function DataSecurity({className= ""}) {
   }, []);
 
   return (
-    <div className={[styles.container,className].join(" ")} data-animate-on-scroll>
+    <div className={[styles.container, className].join(" ")} data-animate-on-scroll>
       <div className={styles.header}>
         <div className={styles.lockImage}>
           <Image src="/lock-icon.png" alt="Lock icon" width={100} height={100} />
@@ -51,13 +50,13 @@ export default function DataSecurity({className= ""}) {
         <div className={styles.card}>
           <div className={styles.cardHeader}>
             <div className={styles.iconWrapper}>
-              <span className={styles.icon}>🔒</span>
+              <span className={styles.icon}>📑</span>
             </div>
-            <h3 className={styles.cardTitle}>TLS/SSL</h3>
+            <h3 className={styles.cardTitle}>TLS/SSL Certificate</h3>
           </div>
           <p className={styles.cardDescription}>
-            TLS/SSL encrypts and secures your data, ensuring peace of mind and
-            protection from unauthorized access.
+            TLS/SSL encryption protects your data in transit, keeping it safe
+            from unauthorized access.
           </p>
         </div>
         <div className={styles.card}>
@@ -68,20 +67,20 @@ export default function DataSecurity({className= ""}) {
             <h3 className={styles.cardTitle}>AWS/Google Cloud</h3>
           </div>
           <p className={styles.cardDescription}>
-            Experience secure data protection and top performance with the
-            reliable cloud services of AWS and Google Cloud.
+            Our cloud infrastructure on AWS and Google Cloud ensures reliable
+            data protection and high performance.
           </p>
         </div>
         <div className={styles.card}>
           <div className={styles.cardHeader}>
             <div className={styles.iconWrapper}>
-              <span className={styles.icon}>💳</span>
+              <span className={styles.icon}>🔐</span>
             </div>
-            <h3 className={styles.cardTitle}>Your Credit Card is Safe</h3>
+            <h3 className={styles.cardTitle}>Data Encryption</h3>
           </div>
           <p className={styles.cardDescription}>
-            We do not store your credit card numbers on our servers. Instead, they
-            are securely stored on Stripe's servers.
+            All sensitive data is encrypted both in transit and at rest, ensuring
+            that only authorized parties can access it.
           </p>
         </div>
       </div>
