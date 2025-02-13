@@ -19,7 +19,7 @@ const Footer = ({ className = "", lETTERLOGO1, propGap }) => {
   }, []);
 
   const onSamparkaservicesgmailcomTextClick = useCallback(() => {
-    window.location.href = "mailto:samparkaservices@gmail.com";
+    window.location.href = "mailto:hello@samparka.info";
   }, []);
 
   const onItemClick = useCallback(() => {
