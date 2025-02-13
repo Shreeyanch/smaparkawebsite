@@ -18,6 +18,12 @@ const With1 = ({ className = "" }) => {
       </div>
       <div className={styles.points}>
         <img className={styles.vectorIcon} alt="" src="/vector3.svg" />
+        <div className={styles.cloudBasedMobileRewards}>
+          Manage Upto 500 Customers
+        </div>
+      </div>
+      <div className={styles.points}>
+        <img className={styles.vectorIcon} alt="" src="/vector3.svg" />
         <div className={styles.cloudBasedMobileRewards}>Create 10 Rewards </div>
       </div>
       <div className={styles.points}>

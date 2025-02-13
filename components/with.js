@@ -6,14 +6,21 @@ const With = ({ className = "" }) => {
   return (
     <div className={[styles.with, className].join(" ")}>
       <FrameComponent
-        smallBiz="MegaChain"
-        forSmallBusinesses="For Multi Outlet Businesses"
+        smallBiz="MegaBiz"
+        forSmallBusinesses="For Large & Multi Outlet Businesses"
         nPR1599mo="Custom Quotation"
       />
       <div className={styles.points}>
         <img className={styles.vectorIcon} alt="" src="/vector3.svg" />
         <div className={styles.cloudBasedMobileRewards}>
           Cloud-Based Mobile Rewards
+        </div>
+      </div>
+
+      <div className={styles.points}>
+        <img className={styles.vectorIcon} alt="" src="/vector3.svg" />
+        <div className={styles.cloudBasedMobileRewards}>
+          Manage Unlimited Customers
         </div>
       </div>
       <div className={styles.points}>

@@ -54,8 +54,15 @@ const Whyloyalty = ({ className = "" }) => {
         <div className={styles.benefitone}>
           <img className={styles.image36Icon} alt="" src="/why3.png" />
           <div className={styles.description1}>
-            Connect with your customers and build them into your brands
-            advocates.
+          Turn customers into brand advocates.
+
+
+
+
+
+
+
+
           </div>
         </div>
       </div>

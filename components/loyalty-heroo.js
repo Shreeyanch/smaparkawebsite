@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import PropTypes from "prop-types";
 import styles from "./loyalty-heroo.module.css";
+import WithOut from "./with-out";
+
 
 const LoyaltyHeroo = ({ className = "" }) => {
   useEffect(() => {
@@ -48,17 +50,30 @@ const LoyaltyHeroo = ({ className = "" }) => {
             <img className={styles.vectorIcon} alt="" src="/vector1.svg" />
           </div>
           <div className={styles.title}>
-            <span className={styles.the}>The</span>
+            <span className={styles.the}>Boost</span>
             <span className={styles.span}> </span>
-            <b>Loyalty Program</b>
+            <b>Loyalty</b>
             <span className={styles.span}> </span>
-            <span className={styles.the}>your customers will actually use</span>
+            <br/>
+            <span className={styles.the}>Build Relationships</span>
           </div>
-          <div className={styles.subtitle}>
-            Getting Customers to return to your business can be an impossible
-            task. Samparka Loyalty is the solution that incentivises one-time
-            buyers to become customers for life.
-          </div>
+          <WithOut
+                    vector="/vector3.svg"
+                    stuckWithOutdatedPunchCar="As simple as paper cards—eco-friendly."
+                    vector1="/vector3.svg"
+                    noSecureWayToManageOrCont="No app downloads—start in seconds."
+                    vector2="/vector3.svg"
+                    higherRiskOfRewardsAbuseW="No complicated setup or maintenance."
+                    vector3="/vector3.svg"
+                    noAccessToRealTimeAnalyti="Designed for businesses of all sizes."
+                    vector4="/vector3.svg"
+                    noSmartQRCodesForEasyMemb="Built in fraud protection."
+                   
+                  />
+          
+
+
+
         </div>
       </div>
       <img className={styles.heroimageIcon} alt="" src="/loyaltypod.png" />

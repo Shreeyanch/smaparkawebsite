@@ -118,16 +118,20 @@ const SmaparkaLoyaltySolution = () => {
       <LoyaltyHero />
       <LoyaltyHeroo />
       {/* <Reservation/> */}
-      <BusinessSoftware/>
-      {/* <StoreDescription/> */}
       <Whyloyalty />
-      <LoyaltyWhy />
-      <HowItWorks />
+
+      <BusinessSoftware/>
+      
       <DataSecurity/>
+
+      {/* <StoreDescription/> */}
+      {/* <LoyaltyWhy /> */}
+      {/* <HowItWorks /> */}
+      {/* <DataSecurity/> */}
       
 
 
-      <LoyaltyReasons />
+      {/* <LoyaltyReasons /> */}
       <div className={styles.loyaltypricing}>
         <div className={styles.discoverAHassleFree}>
           Discover a hassle-free loyalty program that runs on its own.

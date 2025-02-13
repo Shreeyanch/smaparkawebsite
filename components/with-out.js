@@ -71,14 +71,14 @@ const WithOut = ({
 
   return (
     <div className={[styles.without, className].join(" ")} style={withOutStyle}>
-      <div className={styles.iconEmotionHappyParent}>
+      {/* <div className={styles.iconEmotionHappyParent}>
         <img
           className={styles.iconEmotionHappy}
           alt=""
           src={iconEmotionHappy}
         />
         <div className={styles.withoutSamparka}>{withoutSamparka}</div>
-      </div>
+      </div> */}
       <div className={styles.points}>
         <img
           className={styles.vectorIcon}
