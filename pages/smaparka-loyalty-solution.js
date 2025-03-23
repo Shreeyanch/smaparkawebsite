@@ -125,8 +125,8 @@ const SmaparkaLoyaltySolution = () => {
       <DataSecurity/>
 
       {/* <StoreDescription/> */}
-      {/* <LoyaltyWhy /> */}
-      {/* <HowItWorks /> */}
+      <LoyaltyWhy />
+      <HowItWorks />
       {/* <DataSecurity/> */}
       
 
