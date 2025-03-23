@@ -36,7 +36,7 @@ const Review = ({ className = "" }) => {
           <div className={styles.orderNow}>Order Now</div>
         </div>
       </div>
-      <img className={styles.image3Icon} alt="" src="/image-21@2x.png" />
+      <img className={styles.image3Icon} alt="" src="/" />
     </div>
   );
 };
