@@ -26,6 +26,11 @@ const Header = ({ className = "", onClose, onHomeTextClick }) => {
     router.push("/");
   }, [router]);
 
+  const onBlogClick = useCallback(() => {
+    router.push("/blog");
+  }, [router]);
+
+
   const onProductClick = useCallback((event) => {
     setAnchorEl(event.currentTarget);
   }, []);
@@ -80,12 +85,6 @@ const Header = ({ className = "", onClose, onHomeTextClick }) => {
                 className={styles.home}
                 data-scroll-to="product"
                 onClick={onProductClick}
-                sx={{ 
-                  backgroundColor: 'rgba(255, 255, 255, 0.2)', 
-                  fontSize: '18px', 
-                  fontWeight: '300', 
-                  textTransform: 'none' 
-                }}
               >
                 PRODUCTS
 
@@ -103,7 +102,9 @@ const Header = ({ className = "", onClose, onHomeTextClick }) => {
     >
       <ArrowDropDown />
     </IconButton> */}
-             
+             <button className={styles.home} onClick={onBlogClick}>
+                BLOG
+              </button>
               
               <button className={styles.home} onClick={onAboutusClick}>
                 CONTACT US

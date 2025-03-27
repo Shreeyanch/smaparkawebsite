@@ -17,7 +17,7 @@ const CardComponent = ({ className = "" }) => {
 
   const onGroupButtonClick1 = useCallback(() => {
     window.open(
-      "https://www.facebook.com/people/Samparka-Business-Card/61556638293745/"
+      "https://www.facebook.com/SamparkaTechServices"
     );
   }, []);
 

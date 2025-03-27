@@ -9,7 +9,7 @@ const BoostYourBusinessWithNFCE = () => {
   const router = useRouter();
 
   const onFrameButtonClick = useCallback(() => {
-    router.push("/");
+    router.push("/blog");
   }, [router]);
 
   const onIntroductionClick = useCallback(() => {
@@ -72,7 +72,7 @@ const BoostYourBusinessWithNFCE = () => {
       <div className={styles.blogArticleBodyLoyalty}>
         <button className={styles.iconBackParent} onClick={onFrameButtonClick}>
           <img className={styles.iconBack} alt="" src="/icon--back.svg" />
-          <a className={styles.home}>Home</a>
+          <a className={styles.home}>Blog</a>
         </button>
         <div className={styles.frameParent}>
           <div className={styles.tableOfContentsParent}>

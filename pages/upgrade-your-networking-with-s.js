@@ -9,7 +9,7 @@ const UpgradeYourNetworkingWithS = () => {
   const router = useRouter();
 
   const onFrameButtonClick = useCallback(() => {
-    router.push("/");
+    router.push("/blog");
   }, [router]);
 
   const onIntroductionClick = useCallback(() => {
@@ -72,7 +72,7 @@ const UpgradeYourNetworkingWithS = () => {
       <div className={styles.blogArticleBodyNfccard}>
         <button className={styles.iconBackParent} onClick={onFrameButtonClick}>
           <img className={styles.iconBack} alt="" src="/icon--back.svg" />
-          <a className={styles.home}>Home</a>
+          <a className={styles.home}>Blog</a>
         </button>
         <div className={styles.frameParent}>
           <div className={styles.tableOfContentsParent}>
