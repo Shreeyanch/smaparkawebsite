@@ -51,7 +51,7 @@ const LoyaltyHero = ({ className = "" }) => {
           </div>
         </div>
         <div className={styles.mobileCtaButtonLoyalty} >
-          <div className={styles.group2}>
+          <div className={styles.group2} onClick={onGroupContainerClick} >
             <div className={styles.rectangle2} />
             <div className={styles.startForFree}>Get In Touch</div>
           </div>
