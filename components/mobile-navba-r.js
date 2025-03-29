@@ -79,6 +79,10 @@ const MobileNavbaR = ({ className = "", onClose }) => {
     router.push("/");
   }, [router]);
 
+  const onBlogTextClick = useCallback(() => {
+    router.push("/blog");
+  }, [router]);
+
   const onProductClick = useCallback(() => {
     setProductDropdownOpen(!isProductDropdownOpen);
   }, [isProductDropdownOpen]);
@@ -115,6 +119,9 @@ const MobileNavbaR = ({ className = "", onClose }) => {
         <div className={styles.homeParent}>
           <div className={styles.home} onClick={onHomeTextClick}>
             Home
+          </div>
+          <div className={styles.home} onClick={onBlogTextClick}>
+            Blog
           </div>
           <button className={styles.product} onClick={onProductClick}>
             Products

@@ -29,6 +29,10 @@ const Blog = () => {
     router.push("/piccolo-where-coffee-meets-community");
   }, [router]);
 
+  const onFrameLinkClick4 = useCallback(() => {
+    router.push("/tsubaki-transforming-beauty-into-empowerment");
+  }, [router]);
+
 
   return (
     <div className={styles.home}>
@@ -176,6 +180,9 @@ const Blog = () => {
               alt=""
               src="/piccolo_banner.png"
             />
+
+
+            
             <div className={styles.frameGroup}>
               <div className={styles.frameContainer}>
                 <div className={styles.frameDiv}>
@@ -208,13 +215,60 @@ const Blog = () => {
                       Shreeyanch Shrestha
                     </div>
                     <div className={styles.postedOnMay}>
-                      Posted on May 17, 2024
+                      Posted on Mar 26, 2025
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </a>
+
+          <a className={styles.rectangleParent} onClick={onFrameLinkClick4}>
+            <img
+              className={styles.frameChild}
+              alt=""
+              src="/TsubakiBanner.png"
+            />
+            <div className={styles.frameGroup}>
+              <div className={styles.frameContainer}>
+                <div className={styles.frameDiv}>
+                  <div className={styles.frameWrapper}>
+                    <div className={styles.minReadContainer}>
+                      <div className={styles.minRead}>5 min read</div>
+                    </div>
+                  </div>
+                  <b className={styles.boostYourBusiness}>
+                  Tsubaki: Empowering Beauty, Elevating Confidence
+                  </b>
+                </div>
+                <div className={styles.asABusinessOwnerInNepalWrapper}>
+                  <div className={styles.asABusiness}>
+                  At Tsubaki Salon, beauty goes beyond appearance; it’s about transforming how you feel ...
+                  </div>
+                </div>
+              </div>
+              <div className={styles.lineParent}>
+                <div className={styles.frameChild2} />
+                <div className={styles.articleAuthor1}>
+                  <img
+                    className={styles.avatarIcon1}
+                    alt=""
+                    src="/sampada.jpg"
+                  />
+                  <div className={styles.authorText}>
+                    <div className={styles.shreeyanchShrestha}>
+                      Sampada Basnet
+                    </div>
+                    <div className={styles.postedOnMay}>
+                      Posted on Mar 29, 2025
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          
         </div>
       </div>
       <Footer lETTERLOGO1="/letter-logo-1@2x.png" />
