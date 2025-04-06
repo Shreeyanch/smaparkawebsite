@@ -79,7 +79,7 @@ const ThreadNTrendsWhereSneakerCultureFindsItsSole  = () => {
             <div className={styles.tableOfContents}>Table of Contents</div>
             <div className={styles.introductionParent}>
               <a className={styles.introduction} onClick={onIntroductionClick}>
-              Introduction
+              Intro: More Than Just Footwear
               </a>
               <a className={styles.whatIsDigital} onClick={onWhatIsDigitalClick}>
               From Australia to Nepal: The Journey

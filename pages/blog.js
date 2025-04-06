@@ -301,7 +301,7 @@ const Blog = () => {
                   <img
                     className={styles.avatarIcon1}
                     alt=""
-                    src="/saman.jpg"
+                    src="/samanlama.jpg"
                   />
                   <div className={styles.authorText}>
                     <div className={styles.shreeyanchShrestha}>

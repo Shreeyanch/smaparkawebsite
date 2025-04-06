@@ -221,7 +221,7 @@ Born out of a passion for genuine, high-quality sneakers and a desire to make th
           </div>
           <div className={styles.articleAuthorWrapper}>
             <div className={styles.articleAuthor}>
-              <img className={styles.avatarIcon} alt="" src="/saman.jpg" />
+              <img className={styles.avatarIcon} alt="" src="/samanlama.jpg" />
               <div className={styles.authorText}>
                 <div className={styles.piccoloAuthor}>Saman Lama</div>
                 <div className={styles.postedOnJun}>Posted on Apr 6, 2025</div>
