@@ -337,7 +337,7 @@ We’re planning exclusive sneaker drops, hosting culture-forward events, and co
           </div>
 
           <div className={styles.image33Parent}>
-        <img className={styles.image33Icon} alt="" src="/threadsntrendsbanner.png" />
+        <img className={styles.image33Icon} alt="" src="/tandtloyaltybanner.png" />
         <div className={styles.reviews} />
       </div>
 
@@ -394,7 +394,7 @@ Stay tuned for the latest drops, events, and trends—only at ThreadsNTrends.   
       {/* Piccolo Location Iframe */}
       <div className={styles.locationContainer}>
   <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.217107235492!2d85.31472527625841!3d27.710582225347384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb190161557a45%3A0x67cfe9b78555b3c!2sTsubaki%20Beauty%20Saloon!5e0!3m2!1sen!2sin!4v1743236244663!5m2!1sen!2sin"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.34795146438!2d85.31270237625762!3d27.675638726887822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1936285e704b%3A0xdb45f0c80b12ec8f!2sThreads%20N%20Trends!5e0!3m2!1sen!2snp!4v1743929396685!5m2!1sen!2snp"
     allowFullScreen=""
     loading="lazy"
     referrerPolicy="no-referrer-when-downgrade"
