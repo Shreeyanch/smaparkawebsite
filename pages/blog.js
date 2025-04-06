@@ -33,6 +33,9 @@ const Blog = () => {
     router.push("/tsubaki-transforming-beauty-into-empowerment");
   }, [router]);
 
+  const onFrameLinkClick5 = useCallback(() => {
+    router.push("/ThreadsNTrends-Where-Sneaker-Culture-Finds-Its-Sole");
+  }, [router]);
 
   return (
     <div className={styles.home}>
@@ -261,6 +264,51 @@ const Blog = () => {
                     </div>
                     <div className={styles.postedOnMay}>
                       Posted on Mar 29, 2025
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a className={styles.rectangleParent} onClick={onFrameLinkClick5}>
+            <img
+              className={styles.frameChild}
+              alt=""
+              src="/threadsntrendsbanner.png"
+            />
+            <div className={styles.frameGroup}>
+              <div className={styles.frameContainer}>
+                <div className={styles.frameDiv}>
+                  <div className={styles.frameWrapper}>
+                    <div className={styles.minReadContainer}>
+                      <div className={styles.minRead}>5 min read</div>
+                    </div>
+                  </div>
+                  <b className={styles.boostYourBusiness}>
+                  ThreadsNTrends: Where Sneaker Culture Finds Its Sole
+                  </b>
+                </div>
+                <div className={styles.asABusinessOwnerInNepalWrapper}>
+                  <div className={styles.asABusiness}>
+                  Sneaker culture is more than just fashion—it's a lifestyle. Yet, in Nepal, finding authentic sneakers was a challenge...
+                  </div>
+                </div>
+              </div>
+              <div className={styles.lineParent}>
+                <div className={styles.frameChild2} />
+                <div className={styles.articleAuthor1}>
+                  <img
+                    className={styles.avatarIcon1}
+                    alt=""
+                    src="/saman.jpg"
+                  />
+                  <div className={styles.authorText}>
+                    <div className={styles.shreeyanchShrestha}>
+                      Saman Lama
+                    </div>
+                    <div className={styles.postedOnMay}>
+                      Posted on Apr 16, 2025
                     </div>
                   </div>
                 </div>
