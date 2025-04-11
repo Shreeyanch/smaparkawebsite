@@ -4,7 +4,6 @@ import Footer from "../components/footer";
 import styles from "./index.module.css";
 import { useRouter } from "next/router";
 
-
 const Blog = () => {
   const router = useRouter();
   const onHomeTextClick = useCallback(() => {
@@ -46,11 +45,7 @@ const Blog = () => {
         </div>
         <div className={styles.frameParent}>
           <a className={styles.rectangleParent} onClick={onFrameLinkClick1}>
-            <img
-              className={styles.frameChild}
-              alt=""
-              src="/Rectangle478.png"
-            />
+            <img className={styles.frameChild} alt="" src="/Rectangle478.png" />
             <div className={styles.frameGroup}>
               <div className={styles.frameContainer}>
                 <div className={styles.frameDiv}>
@@ -73,11 +68,7 @@ const Blog = () => {
               </div>
               <div className={styles.frameItem} />
               <div className={styles.articleAuthor}>
-                <img
-                  className={styles.avatarIcon}
-                  alt=""
-                  src="/Yeshi.png"
-                />
+                <img className={styles.avatarIcon} alt="" src="/Yeshi.png" />
                 <div className={styles.authorText}>
                   <div className={styles.yeshiDolkar}>Yeshi Dolkar</div>
                   <div className={styles.postedOnJun}>
@@ -184,8 +175,6 @@ const Blog = () => {
               src="/piccolo_banner.png"
             />
 
-
-            
             <div className={styles.frameGroup}>
               <div className={styles.frameContainer}>
                 <div className={styles.frameDiv}>
@@ -195,13 +184,13 @@ const Blog = () => {
                     </div>
                   </div>
                   <b className={styles.boostYourBusiness}>
-                  Piccolo: Where Coffee Meets Community
-
+                    Piccolo: Where Coffee Meets Community
                   </b>
                 </div>
                 <div className={styles.asABusinessOwnerInNepalWrapper}>
                   <div className={styles.asABusiness}>
-                  Piccolo is more than just a coffee shop—it is a vital community hub where ideas are exchanged ...
+                    Piccolo is more than just a coffee shop—it is a vital
+                    community hub where ideas are exchanged ...
                   </div>
                 </div>
               </div>
@@ -241,12 +230,13 @@ const Blog = () => {
                     </div>
                   </div>
                   <b className={styles.boostYourBusiness}>
-                  Tsubaki: Empowering Beauty, Elevating Confidence
+                    Tsubaki: Empowering Beauty, Elevating Confidence
                   </b>
                 </div>
                 <div className={styles.asABusinessOwnerInNepalWrapper}>
                   <div className={styles.asABusiness}>
-                  At Tsubaki Salon, beauty goes beyond appearance; it’s about transforming how you feel ...
+                    At Tsubaki Salon, beauty goes beyond appearance; it’s about
+                    transforming how you feel ...
                   </div>
                 </div>
               </div>
@@ -286,12 +276,13 @@ const Blog = () => {
                     </div>
                   </div>
                   <b className={styles.boostYourBusiness}>
-                  ThreadsNTrends: Where Sneaker Culture Finds Its Sole
+                    ThreadsNTrends: Where Sneaker Culture Finds Its Sole
                   </b>
                 </div>
                 <div className={styles.asABusinessOwnerInNepalWrapper}>
                   <div className={styles.asABusiness}>
-                  Sneaker culture is more than just fashion—it's a lifestyle. Yet, in Nepal, finding authentic sneakers was a challenge...
+                    Sneaker culture is more than just fashion—it's a lifestyle.
+                    Yet, in Nepal, finding authentic sneakers was a challenge...
                   </div>
                 </div>
               </div>
@@ -304,11 +295,9 @@ const Blog = () => {
                     src="/samanlama.jpg"
                   />
                   <div className={styles.authorText}>
-                    <div className={styles.shreeyanchShrestha}>
-                      Saman Lama
-                    </div>
+                    <div className={styles.shreeyanchShrestha}>Saman Lama</div>
                     <div className={styles.postedOnMay}>
-                      Posted on Apr 16, 2025
+                      Posted on Apr 6, 2025
                     </div>
                   </div>
                 </div>
@@ -316,7 +305,50 @@ const Blog = () => {
             </div>
           </a>
 
-          
+          <a className={styles.rectangleParent} onClick={onFrameLinkClick5}>
+            <img
+              className={styles.frameChild}
+              alt=""
+              src="/thenewbarbersbanner.png"
+            />
+            <div className={styles.frameGroup}>
+              <div className={styles.frameContainer}>
+                <div className={styles.frameDiv}>
+                  <div className={styles.frameWrapper}>
+                    <div className={styles.minReadContainer}>
+                      <div className={styles.minRead}>7 min read</div>
+                    </div>
+                  </div>
+                  <b className={styles.boostYourBusiness}>
+                    The New Barbers: Crafting Style from the Ground Up
+                  </b>
+                </div>
+                <div className={styles.asABusinessOwnerInNepalWrapper}>
+                  <div className={styles.asABusiness}>
+                    Grooming is more than appearance—it's identity, expression,
+                    and confidence. At The New Barbers, we’re not just creating
+                    haircuts; we’re creating moments...{" "}
+                  </div>
+                </div>
+              </div>
+              <div className={styles.lineParent}>
+                <div className={styles.frameChild2} />
+                <div className={styles.articleAuthor1}>
+                  <img
+                    className={styles.avatarIcon1}
+                    alt=""
+                    src="/samanlama.jpg"
+                  />
+                  <div className={styles.authorText}>
+                    <div className={styles.shreeyanchShrestha}>Saman Lama</div>
+                    <div className={styles.postedOnMay}>
+                      Posted on Apr 11, 2025
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
       <Footer lETTERLOGO1="/letter-logo-1@2x.png" />

@@ -51,7 +51,7 @@ const TheNewBarber = ({ className = "" }) => {
               <img className={styles.avatarIcon} alt="" src="/samanlama.jpg" />
               <div className={styles.authorText}>
                 <div className={styles.piccoloAuthor}>Saman Lama</div>
-                <div className={styles.postedOnJun}>Posted on Apr 6, 2025</div>
+                <div className={styles.postedOnJun}>Posted on Apr 11, 2025</div>
               </div>
             </div>
           </div>
