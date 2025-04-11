@@ -323,7 +323,7 @@ const Blog = () => {
                     </div>
                   </div>
                   <b className={styles.boostYourBusiness}>
-                    The New Barbers: Crafting Style from the Ground Up
+                    The New Barber: Crafting Style from the Ground Up
                   </b>
                 </div>
                 <div className={styles.asABusinessOwnerInNepalWrapper}>
