@@ -36,6 +36,9 @@ const Blog = () => {
     router.push("/ThreadsNTrends-Where-Sneaker-Culture-Finds-Its-Sole");
   }, [router]);
 
+  const onFrameLinkClick6 = useCallback(() => {
+    router.push("/TheNewBarber-Crafting-Style-from-the-Ground-Up");
+  }, [router]);
   return (
     <div className={styles.home}>
       <Header onHomeTextClick={onHomeTextClick} />
@@ -305,7 +308,7 @@ const Blog = () => {
             </div>
           </a>
 
-          <a className={styles.rectangleParent} onClick={onFrameLinkClick5}>
+          <a className={styles.rectangleParent} onClick={onFrameLinkClick6}>
             <img
               className={styles.frameChild}
               alt=""
