@@ -32,11 +32,11 @@ const TheNewBarber = ({ className = "" }) => {
           <div className={styles.frameContainer}>
             <div className={styles.frameDiv}>
               <div className={styles.minReadWrapper}>
-                <div className={styles.minRead}>5 min read</div>
+                <div className={styles.minRead}>7 min read</div>
               </div>
             </div>
             <b className={styles.enhanceCustomerLoyalty}>
-              TheNewBarber: Cradting Style from the Ground Up
+              TheNewBarber: Crafting Style from the Ground Up
             </b>
             <div className={styles.elevateCustomerLoyalty}>
               Grooming is more than appearance—it's identity, expression, and
