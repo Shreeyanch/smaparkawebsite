@@ -195,15 +195,14 @@ const caffeophilia = ({ className = "" }) => {
                   {" "}
                   Caffeophilia Loyalty App
                 </a>{" "}
-                At Caffeophilia, loyalty is more than a program—it’s a way to
-                say “we remember you.” Powered by Samparka, the Caffeophilia
-                Loyalty App rewards every visit, every coffee, every quiet
-                moment shared within these walls. No plastic cards. No QR
-                scanning chaos. Just a simple tap with your phone, and you're
-                instantly collecting points, unlocking curated rewards, and
-                getting access to member-only experiences. It’s loyalty that
-                feels frictionless, personal, and thoughtful—just like the café
-                itself.
+                loyalty is more than a program—it’s a way to say “we remember
+                you.” Powered by Samparka, the Caffeophilia Loyalty App rewards
+                every visit, every coffee, every quiet moment shared within
+                these walls. No plastic cards. No QR scanning chaos. Just a
+                simple tap with your phone, and you're instantly collecting
+                points, unlocking curated rewards, and getting access to
+                member-only experiences. It’s loyalty that feels frictionless,
+                personal, and thoughtful—just like the café itself.
               </p>
             </div>
           </div>
