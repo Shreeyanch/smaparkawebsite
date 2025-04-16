@@ -39,6 +39,10 @@ const Blog = () => {
   const onFrameLinkClick6 = useCallback(() => {
     router.push("/TheNewBarber-Crafting-Style-from-the-Ground-Up");
   }, [router]);
+
+  const onFrameLinkClick7 = useCallback(() => {
+    router.push("/caffeophilia-for-dreamers-with-coffee-in-their");
+  }, [router]);
   return (
     <div className={styles.home}>
       <Header onHomeTextClick={onHomeTextClick} />
@@ -346,6 +350,53 @@ const Blog = () => {
                     <div className={styles.shreeyanchShrestha}>Saman Lama</div>
                     <div className={styles.postedOnMay}>
                       Posted on Apr 11, 2025
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a className={styles.rectangleParent} onClick={onFrameLinkClick7}>
+            <img
+              className={styles.frameChild}
+              alt=""
+              src="/caffeophiliabanner.png"
+            />
+            <div className={styles.frameGroup}>
+              <div className={styles.frameContainer}>
+                <div className={styles.frameDiv}>
+                  <div className={styles.frameWrapper}>
+                    <div className={styles.minReadContainer}>
+                      <div className={styles.minRead}>5 min read</div>
+                    </div>
+                  </div>
+                  <b className={styles.boostYourBusiness}>
+                    Caffeophilia: For Dreamers with Coffee in Their Hearts
+                  </b>
+                </div>
+                <div className={styles.asABusinessOwnerInNepalWrapper}>
+                  <div className={styles.asABusiness}>
+                    Caffeophilia, a specialty coffee shop concept by Katmandu
+                    Coffee, is more than just a café—it’s a celebration of
+                    Nepali coffee culture reimagined for the modern world. ...{" "}
+                  </div>
+                </div>
+              </div>
+              <div className={styles.lineParent}>
+                <div className={styles.frameChild2} />
+                <div className={styles.articleAuthor1}>
+                  <img
+                    className={styles.avatarIcon1}
+                    alt=""
+                    src="/avatar@2x.png"
+                  />
+                  <div className={styles.authorText}>
+                    <div className={styles.shreeyanchShrestha}>
+                      Shreeyanch Shrestha
+                    </div>
+                    <div className={styles.postedOnMay}>
+                      Posted on Apr 16, 2025
                     </div>
                   </div>
                 </div>
