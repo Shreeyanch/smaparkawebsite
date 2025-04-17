@@ -74,22 +74,6 @@ const caffeophilia = ({ className = "" }) => {
       <div className={styles.frameParent1}>
         <div className={styles.frameParent2}>
           {/* Introduction Section */}
-          <div className={styles.introductionParent}>
-            <b className={styles.introduction}>
-              Established: Humble beginnings, strong roots (Since 2019)
-            </b>
-            <div className={styles.inNepalsCompetitive}>
-              We didn’t start with a legacy—we started with a mission. The New
-              Barbers began in 2019 as a bold idea to redefine men’s grooming in
-              Nepal, and over time, grew into a brand trusted by thousands. What
-              began as a single chair in a small neighborhood shop is now a
-              growing movement in men’s style and self-care. We've built our
-              brand on consistency, quality, and the belief that grooming is not
-              just a service—it’s a statement. From a single chair to multiple
-              branches, our journey is a story of growth, learning, and
-              unwavering commitment.
-            </div>
-          </div>
 
           {/* <div
             className={styles.whatIsDigitalLoyaltySolutiParent}
