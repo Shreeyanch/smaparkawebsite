@@ -10,8 +10,6 @@
 // import  Whyloyalty from "../components/whyloyalty";
 // import HowItWorks from "../components/how-it-works";
 
-
-
 // import styles from "./smaparka-loyalty-solution.module.css";
 
 // const SmaparkaLoyaltySolution = () => {
@@ -84,7 +82,6 @@
 
 // export default SmaparkaLoyaltySolution;
 
-
 import { useCallback } from "react";
 import Header from "../components/header";
 import LoyaltyHero from "../components/loyalty-hero";
@@ -120,16 +117,14 @@ const SmaparkaLoyaltySolution = () => {
       {/* <Reservation/> */}
       <Whyloyalty />
 
-      <BusinessSoftware/>
-      
-      <DataSecurity/>
+      <BusinessSoftware />
+
+      <DataSecurity />
 
       {/* <StoreDescription/> */}
       <LoyaltyWhy />
-      <HowItWorks />
+      {/* <HowItWorks /> */}
       {/* <DataSecurity/> */}
-      
-
 
       {/* <LoyaltyReasons /> */}
       <div className={styles.loyaltypricing}>
