@@ -43,6 +43,10 @@ const Blog = () => {
   const onFrameLinkClick7 = useCallback(() => {
     router.push("/caffeophilia-for-dreamers-with-coffee-in-their");
   }, [router]);
+
+  const onFrameLinkClick8 = useCallback(() => {
+    router.push("/loyalty-elevated");
+  }, [router]); 
   return (
     <div className={styles.home}>
       <Header onHomeTextClick={onHomeTextClick} />
@@ -397,6 +401,51 @@ const Blog = () => {
                     </div>
                     <div className={styles.postedOnMay}>
                       Posted on Apr 16, 2025
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+
+
+
+
+{/* changes made by sweta */}
+
+          <a className={styles.rectangleParent} onClick={onFrameLinkClick8}>
+            <img
+              className={styles.frameChild}
+              alt=""
+              src="/samparkaBanner.png"
+            />
+            <div className={styles.frameGroup}>
+              <div className={styles.frameContainer}>
+                <div className={styles.frameDiv}>
+                  <div className={styles.frameWrapper}>
+                    <div className={styles.minReadContainer}>
+                      <div className={styles.minRead}>5 min read</div>
+                    </div>
+                  </div>
+                  <b className={styles.boostYourBusiness}>Redefining Customer Loyalty for Modern Businesses
+                  </b>
+                </div>
+                <div className={styles.asABusinessOwnerInNepalWrapper}>
+                  <div className={styles.asABusiness}>
+                    Let’s be honest. These days, getting someone’s attention is tough. Keeping it? Even tougher. We’re scrolling past ads like microbuses ignoring red lights, and dodging ...{" "}
+                  </div>
+                </div>
+              </div>
+              <div className={styles.lineParent}>
+                <div className={styles.frameChild2} />
+                <div className={styles.articleAuthor1}>
+                  
+                  <div className={styles.authorText}>
+                    <div className={styles.shreeyanchShrestha}>
+                      Sweta Thapa
+                    </div>
+                    <div className={styles.postedOnMay}>
+                      Posted on June 25, 2025
                     </div>
                   </div>
                 </div>
