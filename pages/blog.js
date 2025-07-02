@@ -435,6 +435,7 @@ const Blog = () => {
               <div className={styles.lineParent}>
                 <div className={styles.frameChild2} />
                 <div className={styles.articleAuthor1}>
+                  <img className={styles.avatarIcon1} alt="" src="/sweta.jpg" />
                   <div className={styles.authorText}>
                     <div className={styles.shreeyanchShrestha}>Sweta Thapa</div>
                     <div className={styles.postedOnMay}>
