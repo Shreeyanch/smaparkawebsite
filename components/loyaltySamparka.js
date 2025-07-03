@@ -48,7 +48,7 @@ const loyaltySamparka = ({ className = "" }) => {
           </div>
           <div className={styles.articleAuthorWrapper}>
             <div className={styles.articleAuthor}>
-              
+              <img className={styles.avatarIcon} alt="" src="/sweta.jpg" />
               <div className={styles.authorText}>
                 <div className={styles.piccoloAuthor}>Sweta Thapa</div>
                 <div className={styles.postedOnJun}>Posted on Jun 25, 2025</div>

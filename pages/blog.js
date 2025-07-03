@@ -431,7 +431,7 @@ const Blog = () => {
                       <div className={styles.minRead}>5 min read</div>
                     </div>
                   </div>
-                  <b className={styles.boostYourBusiness}>A Quiet Pause in the Heart of the City
+                  <b className={styles.boostYourBusiness}>Mira Boulangerie: A Quiet Pause in the Heart of the City
                   </b>
                 </div>
                 <div className={styles.asABusinessOwnerInNepalWrapper}>
@@ -443,7 +443,11 @@ const Blog = () => {
               <div className={styles.lineParent}>
                 <div className={styles.frameChild2} />
                 <div className={styles.articleAuthor1}>
-                  
+                  <img
+                    className={styles.avatarIcon1}
+                    alt=""
+                    src="/sweta.jpg"
+                  />
                   <div className={styles.authorText}>
                     <div className={styles.shreeyanchShrestha}>
                       Sweta Thapa
@@ -483,7 +487,11 @@ const Blog = () => {
               <div className={styles.lineParent}>
                 <div className={styles.frameChild2} />
                 <div className={styles.articleAuthor1}>
-                  
+                  <img
+                    className={styles.avatarIcon1}
+                    alt=""
+                    src="/sweta.jpg"
+                  />
                   <div className={styles.authorText}>
                     <div className={styles.shreeyanchShrestha}>
                       Sweta Thapa

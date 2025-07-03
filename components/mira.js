@@ -47,7 +47,7 @@ const mira = ({ className = "" }) => {
           </div>
           <div className={styles.articleAuthorWrapper}>
             <div className={styles.articleAuthor}>
-              
+              <img className={styles.avatarIcon} alt="" src="/sweta.jpg" />
               <div className={styles.authorText}>
                 <div className={styles.piccoloAuthor}>Sweta Thapa</div>
                 <div className={styles.postedOnJun}>Posted on July 4, 2025</div>
