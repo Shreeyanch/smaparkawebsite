@@ -63,7 +63,7 @@ const loyaltySamparka = ({ className = "" }) => {
         <img
           className={styles.image33Icon}
           alt=""
-          src="/evolution.jpg"
+          src="/elevated.png"
         />
         <div className={styles.reviews} />
       </div>

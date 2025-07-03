@@ -47,6 +47,10 @@ const Blog = () => {
   const onFrameLinkClick8 = useCallback(() => {
     router.push("/loyalty-elevated");
   }, [router]); 
+
+  const onFrameLinkClick9 = useCallback(() => {
+    router.push("/mira-bakery");
+  }, [router]); 
   return (
     <div className={styles.home}>
       <Header onHomeTextClick={onHomeTextClick} />
@@ -412,7 +416,47 @@ const Blog = () => {
 
 
 {/* changes made by sweta */}
-
+{/* Blog for Mira*/}
+<a className={styles.rectangleParent} onClick={onFrameLinkClick9}>
+            <img
+              className={styles.frameChild}
+              alt=""
+              src="/miraBanner.png"
+            />
+            <div className={styles.frameGroup}>
+              <div className={styles.frameContainer}>
+                <div className={styles.frameDiv}>
+                  <div className={styles.frameWrapper}>
+                    <div className={styles.minReadContainer}>
+                      <div className={styles.minRead}>5 min read</div>
+                    </div>
+                  </div>
+                  <b className={styles.boostYourBusiness}>A Quiet Pause in the Heart of the City
+                  </b>
+                </div>
+                <div className={styles.asABusinessOwnerInNepalWrapper}>
+                  <div className={styles.asABusiness}>
+                    In the calm corners of Sanepa and the lively streets of Durbarmarg, Mira Boulangerie & Patisserie is one of those rare places that feels like a soft exhale. For anyone who’s...{" "}
+                  </div>
+                </div>
+              </div>
+              <div className={styles.lineParent}>
+                <div className={styles.frameChild2} />
+                <div className={styles.articleAuthor1}>
+                  
+                  <div className={styles.authorText}>
+                    <div className={styles.shreeyanchShrestha}>
+                      Sweta Thapa
+                    </div>
+                    <div className={styles.postedOnMay}>
+                      Posted on July 4,2025
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+{/*loyaltySamaparka */}
           <a className={styles.rectangleParent} onClick={onFrameLinkClick8}>
             <img
               className={styles.frameChild}
@@ -452,6 +496,7 @@ const Blog = () => {
               </div>
             </div>
           </a>
+
         </div>
       </div>
       <Footer lETTERLOGO1="/letter-logo-1@2x.png" />
