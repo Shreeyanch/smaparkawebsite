@@ -51,6 +51,10 @@ const Blog = () => {
   const onFrameLinkClick9 = useCallback(() => {
     router.push("/mira-bakery");
   }, [router]); 
+
+   const onFrameLinkClick10 = useCallback(() => {
+    router.push("/points-economy");
+  }, [router]); 
   return (
     <div className={styles.home}>
       <Header onHomeTextClick={onHomeTextClick} />
@@ -504,7 +508,50 @@ const Blog = () => {
               </div>
             </div>
           </a>
-
+{/*points economy*/ }
+          <a className={styles.rectangleParent} onClick={onFrameLinkClick10}>
+            <img
+              className={styles.frameChild}
+              alt=""
+              src="/pointsNepalBanner.png"
+            />
+            <div className={styles.frameGroup}>
+              <div className={styles.frameContainer}>
+                <div className={styles.frameDiv}>
+                  <div className={styles.frameWrapper}>
+                    <div className={styles.minReadContainer}>
+                      <div className={styles.minRead}>5 min read</div>
+                    </div>
+                  </div>
+                  <b className={styles.boostYourBusiness}>Nepal’s New Hustle: Earning While You Spend
+                  </b>
+                </div>
+                <div className={styles.asABusinessOwnerInNepalWrapper}>
+                  <div className={styles.asABusiness}>
+                    Walk into any cafe, hop into a ride, or pay for groceries with your digital wallet in Kathmandu, and chances are you’re earning points. FonePoints..... 
+                    </div>
+                </div>
+              </div>
+              <div className={styles.lineParent}>
+                <div className={styles.frameChild2} />
+                <div className={styles.articleAuthor1}>
+                  <img
+                    className={styles.avatarIcon1}
+                    alt=""
+                    src="/sweta.jpg"
+                  />
+                  <div className={styles.authorText}>
+                    <div className={styles.shreeyanchShrestha}>
+                      Sweta Thapa
+                    </div>
+                    <div className={styles.postedOnMay}>
+                      Posted on July 8, 2025
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
       <Footer lETTERLOGO1="/letter-logo-1@2x.png" />
