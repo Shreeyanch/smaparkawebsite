@@ -66,7 +66,7 @@ const points = ({ className = "" }) => {
         <img
           className={styles.image33Icon}
           alt=""
-          src="/pointsNepal.png"
+          src="/pointsBanner.jpg"
         />
         <div className={styles.reviews} />
       </div>

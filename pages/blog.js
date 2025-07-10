@@ -513,7 +513,7 @@ const Blog = () => {
             <img
               className={styles.frameChild}
               alt=""
-              src="/pointsNepalBanner.png"
+              src="/pointsBanner.jpg"
             />
             <div className={styles.frameGroup}>
               <div className={styles.frameContainer}>
@@ -523,12 +523,12 @@ const Blog = () => {
                       <div className={styles.minRead}>5 min read</div>
                     </div>
                   </div>
-                  <b className={styles.boostYourBusiness}>Nepal’s New Hustle: Earning While You Spend
+                  <b className={styles.boostYourBusiness}>The Rise of the Point Economy: Why Loyalty Is the New Currency in Nepal
                   </b>
                 </div>
                 <div className={styles.asABusinessOwnerInNepalWrapper}>
                   <div className={styles.asABusiness}>
-                    Walk into any cafe, hop into a ride, or pay for groceries with your digital wallet in Kathmandu, and chances are you’re earning points. FonePoints..... 
+                    Walk into any cafe, hop into a ride, or pay for groceries with your digital wallet in Kathmandu, and chances..... 
                     </div>
                 </div>
               </div>
