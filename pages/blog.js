@@ -52,7 +52,7 @@ const Blog = () => {
     router.push("/mira-bakery");
   }, [router]);
   const onFrameLinkClick10 = useCallback(() => {
-    router.push("/point-economy");
+    router.push("/points-economy");
   }, [router]);
   return (
     <div className={styles.home}>
