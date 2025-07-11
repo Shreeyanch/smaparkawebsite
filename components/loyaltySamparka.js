@@ -50,7 +50,6 @@ const loyaltySamparka = ({ className = "" }) => {
           <div className={styles.articleAuthorWrapper}>
             <div className={styles.articleAuthor}>
               <img className={styles.avatarIcon} alt="" src="/sweta.jpg" />
-
               <div className={styles.authorText}>
                 <div className={styles.piccoloAuthor}>Sweta Thapa</div>
                 <div className={styles.postedOnJun}>Posted on Jul 2, 2025</div>
@@ -62,7 +61,7 @@ const loyaltySamparka = ({ className = "" }) => {
 
       {/* Banner Image */}
       <div className={styles.image33Parent}>
-        <img className={styles.image33Icon} alt="" src="/redefine2.png" />
+        <img className={styles.image33Icon} alt="" src="/evolution.jpg" />
         <div className={styles.reviews} />
       </div>
 

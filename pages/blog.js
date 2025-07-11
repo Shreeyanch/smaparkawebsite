@@ -408,8 +408,60 @@ const Blog = () => {
             </div>
           </a>
 
+<<<<<<< HEAD
           {/* changes made by sweta */}
 
+=======
+
+
+
+{/* changes made by sweta */}
+{/* Blog for Mira*/}
+<a className={styles.rectangleParent} onClick={onFrameLinkClick9}>
+            <img
+              className={styles.frameChild}
+              alt=""
+              src="/miraBanner.png"
+            />
+            <div className={styles.frameGroup}>
+              <div className={styles.frameContainer}>
+                <div className={styles.frameDiv}>
+                  <div className={styles.frameWrapper}>
+                    <div className={styles.minReadContainer}>
+                      <div className={styles.minRead}>5 min read</div>
+                    </div>
+                  </div>
+                  <b className={styles.boostYourBusiness}>Mira Boulangerie: A Quiet Pause in the Heart of the City
+                  </b>
+                </div>
+                <div className={styles.asABusinessOwnerInNepalWrapper}>
+                  <div className={styles.asABusiness}>
+                    In the calm corners of Sanepa and the lively streets of Durbarmarg, Mira Boulangerie & Patisserie is one of those rare places that feels like a soft exhale. For anyone who’s...{" "}
+                  </div>
+                </div>
+              </div>
+              <div className={styles.lineParent}>
+                <div className={styles.frameChild2} />
+                <div className={styles.articleAuthor1}>
+                  <img
+                    className={styles.avatarIcon1}
+                    alt=""
+                    src="/sweta.jpg"
+                  />
+                  <div className={styles.authorText}>
+                    <div className={styles.shreeyanchShrestha}>
+                      Sweta Thapa
+                    </div>
+                    <div className={styles.postedOnMay}>
+                      Posted on July 4,2025
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+{/*loyaltySamaparka */}
+>>>>>>> 983f1dfcba8613966bd0b6b9f7f58522fbd6ae62
           <a className={styles.rectangleParent} onClick={onFrameLinkClick8}>
             <img className={styles.frameChild} alt="" src="/redefine2.png" />
             <div className={styles.frameGroup}>
@@ -435,11 +487,63 @@ const Blog = () => {
               <div className={styles.lineParent}>
                 <div className={styles.frameChild2} />
                 <div className={styles.articleAuthor1}>
+<<<<<<< HEAD
                   <img className={styles.avatarIcon1} alt="" src="/sweta.jpg" />
+=======
+                  <img
+                    className={styles.avatarIcon1}
+                    alt=""
+                    src="/sweta.jpg"
+                  />
+>>>>>>> 983f1dfcba8613966bd0b6b9f7f58522fbd6ae62
                   <div className={styles.authorText}>
                     <div className={styles.shreeyanchShrestha}>Sweta Thapa</div>
                     <div className={styles.postedOnMay}>
                       Posted on Jul 2, 2025
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+{/*points economy*/ }
+          <a className={styles.rectangleParent} onClick={onFrameLinkClick10}>
+            <img
+              className={styles.frameChild}
+              alt=""
+              src="/pointsBanner.jpg"
+            />
+            <div className={styles.frameGroup}>
+              <div className={styles.frameContainer}>
+                <div className={styles.frameDiv}>
+                  <div className={styles.frameWrapper}>
+                    <div className={styles.minReadContainer}>
+                      <div className={styles.minRead}>5 min read</div>
+                    </div>
+                  </div>
+                  <b className={styles.boostYourBusiness}>The Rise of the Point Economy: Why Loyalty Is the New Currency in Nepal
+                  </b>
+                </div>
+                <div className={styles.asABusinessOwnerInNepalWrapper}>
+                  <div className={styles.asABusiness}>
+                    Walk into any cafe, hop into a ride, or pay for groceries with your digital wallet in Kathmandu, and chances..... 
+                    </div>
+                </div>
+              </div>
+              <div className={styles.lineParent}>
+                <div className={styles.frameChild2} />
+                <div className={styles.articleAuthor1}>
+                  <img
+                    className={styles.avatarIcon1}
+                    alt=""
+                    src="/sweta.jpg"
+                  />
+                  <div className={styles.authorText}>
+                    <div className={styles.shreeyanchShrestha}>
+                      Sweta Thapa
+                    </div>
+                    <div className={styles.postedOnMay}>
+                      Posted on July 8, 2025
                     </div>
                   </div>
                 </div>
