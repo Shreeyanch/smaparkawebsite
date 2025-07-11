@@ -61,7 +61,11 @@ const loyaltySamparka = ({ className = "" }) => {
 
       {/* Banner Image */}
       <div className={styles.image33Parent}>
+<<<<<<< HEAD
         <img className={styles.image33Icon} alt="" src="/evolution.jpg" />
+=======
+        <img className={styles.image33Icon} alt="" src="/elevated.png" />
+>>>>>>> master
         <div className={styles.reviews} />
       </div>
 

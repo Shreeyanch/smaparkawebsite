@@ -51,10 +51,6 @@ const Blog = () => {
   const onFrameLinkClick9 = useCallback(() => {
     router.push("/mira-bakery");
   }, [router]);
-
-  const onFrameLinkClick10 = useCallback(() => {
-    router.push("/points-economy");
-  }, [router]);
   return (
     <div className={styles.home}>
       <Header onHomeTextClick={onHomeTextClick} />
@@ -411,7 +407,6 @@ const Blog = () => {
               </div>
             </div>
           </a>
-          {/* changes made by sweta */}
           {/* changes made by sweta */}
           {/* Blog for Mira*/}
           <a className={styles.rectangleParent} onClick={onFrameLinkClick9}>
