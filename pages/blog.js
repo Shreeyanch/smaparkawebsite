@@ -54,6 +54,9 @@ const Blog = () => {
   const onFrameLinkClick10 = useCallback(() => {
     router.push("/points-economy");
   }, [router]);
+  const onFrameLinkClick11 = useCallback(() => {
+    router.push("/cinnamon");
+  }, [router]);
   return (
     <div className={styles.home}>
       <Header onHomeTextClick={onHomeTextClick} />
@@ -506,6 +509,41 @@ const Blog = () => {
                   <div className={styles.asABusiness}>
                     Walk into any cafe, hop into a ride, or pay for groceries
                     with your digital wallet in Kathmandu, and chances.....
+                  </div>
+                </div>
+              </div>
+              <div className={styles.lineParent}>
+                <div className={styles.frameChild2} />
+                <div className={styles.articleAuthor1}>
+                  <img className={styles.avatarIcon1} alt="" src="/sweta.jpg" />
+                  <div className={styles.authorText}>
+                    <div className={styles.shreeyanchShrestha}>Sweta Thapa</div>
+                    <div className={styles.postedOnMay}>
+                      Posted on July 8, 2025
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          {/*cinnamon garden economy*/}
+          <a className={styles.rectangleParent} onClick={onFrameLinkClick11}>
+            <img className={styles.frameChild} alt="" src="cinnamon1.png" />
+            <div className={styles.frameGroup}>
+              <div className={styles.frameContainer}>
+                <div className={styles.frameDiv}>
+                  <div className={styles.frameWrapper}>
+                    <div className={styles.minReadContainer}>
+                      <div className={styles.minRead}>3 min read</div>
+                    </div>
+                  </div>
+                  <b className={styles.boostYourBusiness}>
+                    Cinnamon Garden: Innovating Comfort on Hattisar Road
+                  </b>
+                </div>
+                <div className={styles.asABusinessOwnerInNepalWrapper}>
+                  <div className={styles.asABusiness}>
+                    Situated just steps from Naxal, within the charming Maya Manor Boutique Hotel, Cinnamon Garden offers a beautifully balanced blend of serenity and inventiveness—a creative retreat in the heart of Kathmandu.
                   </div>
                 </div>
               </div>
