@@ -1,0 +1,352 @@
+.home {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;.discoverOurBlogs {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+  }
+  .blogCatHeaders {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameChild {
+    align-self: stretch;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 240px;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .minRead {
+    height: 18px;
+    position: relative;
+    letter-spacing: -0.04em;
+    display: inline-block;
+  }
+  .frameWrapper,
+  .minReadWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .minReadWrapper {
+    border-radius: var(--br-7xs);
+    background-color: var(--color-whitesmoke);
+    align-items: flex-start;
+    padding: var(--padding-10xs) var(--padding-7xs);
+  }
+  .frameWrapper {
+    align-self: stretch;
+    align-items: center;
+  }
+  .boostYourBusiness {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-7xl);
+    letter-spacing: 0.02em;
+    line-height: 34px;
+    font-family: var(--font-inter);
+    color: var(--studio-darkmode-exportbg-1a202e);
+  }
+  .frameDiv {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+  }
+  .asABusiness {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 21px;
+  }
+  .asABusinessOwnerInNepalWrapper,
+  .frameContainer {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .asABusinessOwnerInNepalWrapper {
+    font-size: var(--font-size-smi);
+    color: var(--studio-darkmode-exportbg-1a202e);
+    font-family: var(--font-poppins);
+  }
+  .frameContainer {
+    gap: var(--gap-5xs);
+  }
+  .frameItem {
+    align-self: stretch;
+    position: relative;
+    border-top: 0.7px solid var(--studio-lightmode-lightseparator-ecf0f6);
+    box-sizing: border-box;
+    height: 0.7px;
+  }
+  .avatarIcon {
+    width: 40px;
+    position: relative;
+    height: 40px;
+    object-fit: cover;
+  }
+  .postedOnJun,
+  .yeshiDolkar {
+    position: relative;
+    display: inline-block;
+  }
+  .yeshiDolkar {
+    width: 145.5px;
+    height: 21px;
+    letter-spacing: -0.04em;
+    font-weight: 600;
+  }
+  .postedOnJun {
+    width: 150px;
+    height: 16px;
+    font-size: var(--font-size-sm);
+    font-family: var(--font-roboto);
+    color: var(--studio-darkmode-normalsolid-icons-96a2be);
+  }
+  .articleAuthor,
+  .authorText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-11xs);
+  }
+  .articleAuthor {
+    flex-direction: row;
+    align-items: center;
+    gap: var(--gap-3xs);
+    font-size: var(--font-size-mid);
+    font-family: var(--font-sora);
+  }
+  .frameGroup {
+    align-self: stretch;
+    flex-direction: column;
+    padding: var(--padding-base);
+    gap: var(--gap-smi);
+  }
+  .frameGroup,
+  .minReadContainer,
+  .rectangleParent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .rectangleParent {
+    text-decoration: none;
+    width: 32%;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-white);
+    border: 0.7px solid var(--studio-lightmode-midseparator-dee3eb);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: column;
+    gap: var(--gap-9xs);
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    color: inherit;
+  }
+  .rectangleGroup:hover,
+  .rectangleParent:hover {
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.1);
+  }
+  .minReadContainer {
+    border-radius: var(--br-9xs);
+    background-color: var(--color-whitesmoke);
+    flex-direction: row;
+    padding: var(--padding-10xs) var(--padding-7xs);
+  }
+  .transformFromTraditional {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 21px;
+    white-space: pre-wrap;
+  }
+  .lineDiv {
+    width: 302.7px;
+    position: relative;
+    border-top: 0.7px solid var(--studio-lightmode-lightseparator-ecf0f6);
+    box-sizing: border-box;
+    height: 0.7px;
+  }
+  .avatarIcon1 {
+    width: 40px;
+    position: relative;
+    border-radius: 50%;
+    height: 40px;
+    object-fit: cover;
+  }
+  .articleAuthor1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+  }
+  .frameParent1,
+  .lineParent,
+  .rectangleGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .lineParent {
+    justify-content: flex-start;
+    gap: var(--gap-smi);
+    font-size: var(--font-size-mid);
+  }
+  .frameParent1,
+  .rectangleGroup {
+    align-self: stretch;
+  }
+  .frameParent1 {
+    flex: 1;
+    justify-content: space-between;
+    padding: var(--padding-base);
+  }
+  .rectangleGroup {
+    text-decoration: none;
+    width: 32%;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-white);
+    border: 0.7px solid var(--studio-lightmode-midseparator-dee3eb);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+    margin-bottom: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+    color: inherit;
+  }
+  .frameChild2 {
+    width: 330.7px;
+    position: relative;
+    border-top: 0.7px solid var(--studio-lightmode-lightseparator-ecf0f6);
+    box-sizing: border-box;
+    height: 0.7px;
+  }
+  .shreeyanchShrestha {
+    width: 185px;
+    height: 21px;
+    position: relative;
+    letter-spacing: -0.04em;
+    font-weight: 600;
+    display: inline-block;
+  }
+  .frameParent,
+  .postedOnMay {
+    font-size: var(--font-size-sm);
+  }
+  .postedOnMay {
+    width: 161px;
+    height: 16px;
+    position: relative;
+    font-family: var(--font-roboto);
+    color: var(--studio-darkmode-normalsolid-icons-96a2be);
+    display: inline-block;
+  }
+  .frameParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: var(--color-dimgray);
+    font-family: var(--font-source-code-pro);
+  }
+  .blogCatHeadersParent,
+  .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .blogCatHeadersParent {
+    align-self: stretch;
+    align-items: flex-start;
+    padding: 0 var(--padding-101xl);
+    gap: var(--gap-11xl);
+    text-align: left;
+    font-size: var(  --font-size-13xl);
+    color: var(--color-gray-100);
+    font-family: var(--font-inter);
+  }
+  
+  /* Media Queries */
+  @media (max-width: 1200px) {
+    .blogCatHeadersParent {
+      padding: 0 var(--padding-31xl);
+    }
+  
+    .rectangleParent {
+      width: 48%;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .blogCatHeadersParent {
+      padding: 0 var(--padding-16xl);
+    }
+  
+    .rectangleParent {
+      width: 100%;
+    }
+  
+    .frameWrapper {
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .discoverOurBlogs {
+      font-size: var(--font-size-5xl);
+    }
+  
+    .boostYourBusiness {
+      font-size: var(--font-size-5xl);
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .blogCatHeadersParent {
+      padding: 0 var(--padding-5xl);
+      font-size: var(  --font-size-base);
+    }
+  
+    .boostYourBusiness {
+      font-size: var(--font-size-3xl);
+    }
+  
+    .discoverOurBlogs {
+      font-size: var(--font-size-3xl);
+    }
+  
+    .articleAuthor {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  
+}
+
+

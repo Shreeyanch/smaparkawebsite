@@ -1,0 +1,183 @@
+.noMessagesIcon {
+  width: 176px;
+  position: relative;
+  height: 177px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.formTitle,
+.sendUsA {
+  align-self: stretch;
+  position: relative;
+  line-height: 40px;
+}
+.sendUsA {
+  height: 40px;
+  font-size: var(--font-size-smi);
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  font-weight: 300;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  display: inline-block;
+}
+.formHeader {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.input {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+  font-family: var(--font-roboto);
+  font-size: var(--font-size-base);
+  color: var(--color-gray-400);
+}
+.nameInput {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.input3 {
+  align-self: stretch;
+  font-family: var(--font-roboto);
+  font-size: var(--font-size-base);
+  color: var(--color-gray-400);
+}
+.formFields {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.submit {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-roboto);
+  color: white;
+  text-align: center;
+}
+.form,
+.formSubmitButton {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.formSubmitButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-4xs);
+  background-color: var(--color-mediumseagreen-100);
+  width: 195px;
+  border-radius: var(--br-9xs);
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.form {
+  margin: 0;
+  align-self: stretch;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.03);
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  flex-direction: column;
+  padding: var(--padding-9xl) var(--padding-11xl);
+  gap: var(--gap-mid);
+}
+.formgetintouch,
+.shareYourTravelsForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative !important;
+  left: auto !important;
+}
+.formgetintouch {
+  width: 650px;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-81xl);
+  box-sizing: border-box;
+  gap: var(--gap-31xl);
+}
+.shareYourTravelsForm {
+  align-self: stretch;
+  justify-content: center;
+  padding: var(--padding-xl);
+  gap: var(--gap-7xs);
+  text-align: center;
+  font-size: var(--font-size-20xl);
+  color: var(--color-snow);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1200px) {
+  .sendUsA {
+    text-align: center;
+  }
+  .formSubmitButton {
+    background-color: var(--color-mediumseagreen-200);
+  }
+  .formgetintouch {
+    padding-left: var(--padding-31xl);
+    padding-right: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 768px) {
+  .sendUsA {
+    font-size: var(--font-size-smi);
+  }
+  .formSubmitButton {
+    background-color: var(--color-mediumseagreen-200);
+  }
+  .formgetintouch,
+  .shareYourTravelsForm {
+    padding: var(--padding-5xl) var(--padding-0);
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative !important;
+    left: auto !important;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 428px) {
+  .formTitle {
+    font-size: var(--font-size-8xl);
+  }
+  .sendUsA {
+    font-weight: 300;
+    font-family: var(--font-poppins);
+    font-size: var(--font-size-smi);
+    line-height: 22px;
+  }
+  .formgetintouch,
+  .shareYourTravelsForm {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative !important;
+    left: auto !important;
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 360px) {
+  .formTitle {
+    font-size: var(--font-size-8xl);
+  }
+  .sendUsA {
+    font-size: var(--font-size-2xs);
+    line-height: 15px;
+  }
+}

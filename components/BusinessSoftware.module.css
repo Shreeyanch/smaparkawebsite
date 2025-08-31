@@ -1,0 +1,493 @@
+.container {
+  text-align: center;
+  padding: var(--padding-base);
+  max-width: 1430px;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.leaderboard {
+  padding: 5px;
+  border-radius: 8px;
+  overflow-x: auto; /* Allows horizontal scrolling if needed on small devices */
+}
+
+.cardWrapper {
+  /* This class wraps the card and retains the functionality for the card click event */
+  cursor: pointer;
+}
+
+.cardContentWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftTextContent {
+  flex: 1;
+  padding-right: 20px;
+  text-align: left; /* Ensures text is left-aligned */
+}
+
+/* Add this to your styles file */
+
+.slotMachine {
+  height: 60px; /* Height of the slot machine */
+  overflow: hidden; /* Hide overflow to simulate the slot effect */
+  position: relative;
+  border: 1px solid #8d8b8b; /* Subtle border for definition */
+  padding: 10px;
+  border-radius: 10px; /* Rounded corners for a soft look */
+  background-color: #f4f4f4; /* Light background color */
+  
+  /* Adding shadow for depth */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow around the element */
+  transition: box-shadow 1.9s ease-in-out; /* Smooth transition when interaction occurs */
+
+  
+}
+
+/* Hover effect to enhance interactivity */
+.slotMachine:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Darker shadow on hover for depth */
+}
+/* Define the infinite spinning animation */
+@keyframes spin {
+  0% {
+    transform: translateY(0); /* Start from the top */
+    
+  }
+  100% {
+    transform: translateY(-80%); /* Move all the way up */
+  }
+}
+
+.slotContainer {
+  
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease-in-out;
+  animation: spin 2s linear infinite; /* Infinite scroll effect */
+
+}
+
+
+
+.slotItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  
+}
+
+.fruit {
+  font-size: 30px; /* Adjust font size for fruit icons */
+}
+
+.active {
+  font-weight: bold; /* Optional: Highlight the active fruit */
+}
+
+
+.rightTableContent {
+  flex: 1;
+  display: flex;
+  justify-content: right; /* Aligns content to the left */
+  font-size: 30px;
+
+}
+
+.fruitTable {
+  width: auto; /* Ensures the table takes up the full width of its container */
+  border-collapse: collapse; /* Optional: for cleaner table layout */
+
+}
+
+.fruitTable td {
+  padding: 10px; /* Add padding for better spacing */
+
+}
+
+
+.leaderboardItem {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.rankContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.rank {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+.trophy,
+.medal {
+  font-size: 25px;
+}
+
+.userInfo {
+  flex-grow: 1;
+}
+
+.userName {
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 1px;
+}
+
+.progressContainer {
+  display: flex;
+  align-items: center;
+}
+
+.progressBar {
+  width: 100%;
+  height: 8px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  margin-right: 10px;
+  position: relative;
+}
+
+.progressBar::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #4caf50;
+  border-radius: 5px;
+}
+
+.cardImageContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 490px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.cardImage {
+  width: 100%;
+  height: 490px;
+  object-fit: cover;
+  object-position: top;
+  display: block;
+}
+
+.cardImageNotification {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+  object-position: center;
+}
+
+/* Gradient overlay */
+.cardImageContainer::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+  pointer-events: none;
+}
+
+.storecardImage {
+  width: 100%;
+  height: 290px;
+  object-fit: cover;
+  object-position: top;
+  display: block;
+}
+
+.heading {
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+}
+
+.subHeading {
+  font-size: var(--font-size-base);
+  color: rgb(139, 138, 138);
+  margin-bottom: var(--gap-xl);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--gap-4xl);
+}
+
+.card {
+  background: var(--color-gray-700);
+  padding: var(--padding-lg);
+  border-radius: var(--br-3xs);
+  text-align: left;
+  box-shadow: 0 2px 10px rgba(201, 196, 196, 0.1);
+  font-size: var(--font-size-xs);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(216, 177, 177, 0.192);
+}
+
+.cardContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.textContent {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.imageContent {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.slotMachineImage {
+  width: 130px;
+  max-width: 130px;
+  height: auto;
+}
+
+.card h3 {
+  font-size: var(--font-size-base);
+}
+
+/* Popup Styles */
+.popupOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  font: 3px;
+}
+
+.popup {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  width: auto;
+  max-width: 70%;
+  text-align: left;
+  position: relative;
+  animation: fadeIn 0.3s ease-in-out;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Updated Popup Content */
+.popupContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  margin: 50px;
+}
+
+.popupText {
+  flex: 1;
+  text-align: left;
+  color: white;
+}
+
+.popupImageContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.popupImage {
+  max-width: 100%;
+  height: auto;
+}
+
+.popup h3 {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.popup p {
+  font-size: 15px;
+  color: white;
+  margin: 5px 0;
+}
+
+.extraInfo {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #a1a1a1;
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: white;
+}
+
+/* Grid adjustments for cards */
+.card:nth-child(1) {
+  grid-column: span 1;
+  grid-row: span 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:nth-child(2),
+.card:nth-child(3) {
+  grid-column: span 1;
+}
+
+.card:nth-child(4) {
+  grid-column: span 1;
+}
+
+.card:nth-child(5) {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.card:nth-child(6) {
+  grid-column: span 2;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card:nth-child(1),
+  .card:nth-child(5),
+  .card:nth-child(6) {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  
+
+  .leaderboardItem {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .progressContainer {
+    width: 300px;
+    margin-top: 5px;
+  }
+
+  .heading {
+    font-size: var(--font-size-4xl);
+  }
+
+  .subHeading {
+    font-size: var(--font-size-sm);
+  }
+
+  .card {
+    padding: var(--padding-3xs);
+  }
+
+  .popup {
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 90%;
+  }
+  .slotItem {
+
+    gap: 10px;
+    
+  }
+
+  .popupImage {
+    max-width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+  }
+
+  .popupContent {
+    margin: 1px;
+  }
+
+  .cardImage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+  }
+  .storecardImage {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+  }
+
+  .popupContent {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .popupText {
+    flex: none;
+    width: 100%;
+  }
+}

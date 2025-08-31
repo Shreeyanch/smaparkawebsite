@@ -1,0 +1,66 @@
+.whyShouldYou {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+}
+.loyaltywhy,
+.withoutParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-75xl);
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-lavenderblush);
+}
+.loyaltywhy {
+  background-color: var(--color-gray-700);
+  flex-direction: column;
+  padding: var(--padding-108xl) var(--padding-145xl) var(--padding-152xl);
+  gap: var(--gap-31xl);
+  z-index: 3;
+  text-align: center;
+  font-size: var(--font-size-18xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1440px) {
+  .loyaltywhy {
+    display: flex;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .whyShouldYou {
+    font-size: var(--font-size-11xl);
+  }
+  .loyaltywhy {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .whyShouldYou {
+    font-size: var(--font-size-11xl);
+  }
+  .loyaltywhy,
+  .withoutParent {
+    flex-direction: column;
+  }
+  .loyaltywhy {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 428px) {
+  .whyShouldYou {
+    font-size: var(--font-size-6xl);
+  }
+  .loyaltywhy {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    padding-bottom: var(--padding-51xl);
+    box-sizing: border-box;
+  }
+}

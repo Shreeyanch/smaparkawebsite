@@ -1,0 +1,89 @@
+.iconEmotionHappy {
+  width: 41px;
+  position: relative;
+  height: 39px;
+}
+.withoutSamparka {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+}
+.iconEmotionHappyParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+  font-size: var(--font-size-2xl);
+  color: var(--color-white);
+}
+.vectorIcon {
+  width: 17px;
+  position: relative;
+  height: 16px;
+}
+.stuckWithOutdated {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.04em;
+  line-height: 26.25px;
+  white-space: pre-wrap;
+}
+.points {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.noSecureWay {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.04em;
+  line-height: 26.25px;
+}
+.without {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-mini);
+  gap: var(--gap-11xl-8);
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-lavenderblush);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .withoutSamparka {
+    font-size: var(--font-size-11xl);
+  }
+}
+@media screen and (max-width: 768px) {
+  .withoutSamparka {
+    font-size: var(--font-size-11xl);
+  }
+  .noSecureWay,
+  .stuckWithOutdated {
+    font-size: var(--font-size-sm);
+  }
+  .without {
+    flex: unset;
+    align-self: stretch;
+  }
+}
+@media screen and (max-width: 428px) {
+  .withoutSamparka {
+    font-size: var(--font-size-6xl);
+  }
+  .noSecureWay,
+  .stuckWithOutdated {
+    font-size: var(--font-size-xs);
+  }
+}

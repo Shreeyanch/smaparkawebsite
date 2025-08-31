@@ -1,0 +1,524 @@
+.desktoptitleIcon,
+.mobileTitleIcon {
+  width: 775px;
+  position: relative;
+  height: 260px;
+  object-fit: cover;
+}
+.mobileTitleIcon {
+  width: 359px;
+  height: 106px;
+  display: none;
+}
+.nepalsTopDigitalContainer {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 29px;
+  text-transform: capitalize;
+  font-family: var(--font-poppins);
+}
+.rectangle {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 82.5px);
+  border-radius: var(--br-181xl);
+  background-color: var(--color-lightseagreen);
+  width: 165px;
+  height: 60px;
+}
+.getInTouch {
+  position: absolute;
+  top: 15px;
+  left: calc(50% - 46.5px);
+  line-height: 30px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.group,
+.rectangle1 {
+  width: 165px;
+  height: 60px;
+}
+.group {
+  position: relative;
+  cursor: pointer;
+}
+.rectangle1 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 82.5px);
+  border-radius: var(--br-181xl);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+}
+.watchAVideo {
+  position: absolute;
+  top: 15px;
+  left: calc(50% - 55.5px);
+  line-height: 30px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.group1 {
+  width: 165px;
+  position: relative;
+  height: 60px;
+}
+.desktopCtaButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xl);
+}
+.rectangle2 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 58px);
+  border-radius: var(--br-181xl);
+  background-color: var(--color-lightseagreen);
+  width: 116px;
+  height: 37px;
+}
+.startForFree {
+  position: absolute;
+  top: 3.5px;
+  left: calc(50% - 39.5px);
+  line-height: 30px;
+  font-weight: 600;
+}
+.group2,
+.rectangle3 {
+  width: 116px;
+  position: relative;
+  height: 37px;
+}
+.rectangle3 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 58px);
+  border-radius: var(--br-181xl);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+}
+.watchAVideo1 {
+  position: absolute;
+  top: 4px;
+  left: calc(50% - 47px);
+  line-height: 30px;
+  font-weight: 600;
+  display: inline-block;
+  width: 94px;
+  height: 19px;
+}
+.group3 {
+  width: 116px;
+  position: relative;
+  height: 37px;
+}
+.mobileCtaButtonLoyalty {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xl);
+  font-size: var(--font-size-smi);
+}
+.mobileHeroImageLoyaltyChild {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 704px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.mobileHeroImageLoyalty {
+  width: 1112px;
+  height: 744px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-81xl) var(--padding-0) var(--padding-xl);
+  box-sizing: border-box;
+}
+.icon,
+.icon1,
+.icon2,
+.icon3,
+.icon4 {
+  width: 78px;
+  position: relative;
+  height: 22px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.icon1,
+.icon2,
+.icon3,
+.icon4 {
+  width: 75px;
+  height: 19px;
+}
+.icon2,
+.icon3,
+.icon4 {
+  width: 45px;
+  height: 20px;
+}
+.icon3,
+.icon4 {
+  width: 69px;
+}
+.icon4 {
+  width: 55px;
+  height: 16px;
+}
+.companymobile,
+.logo,
+.loyaltyheroheader {
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-mini) var(--padding-0);
+  gap: var(--gap-8xs);
+}
+.companymobile,
+.loyaltyheroheader {
+  flex-direction: column;
+}
+.companymobile {
+  width: 1112px;
+  overflow: hidden;
+  display: none;
+  padding: var(--padding-0) var(--padding-12xs);
+  box-sizing: border-box;
+}
+.loyaltyheroheader {
+  align-self: stretch;
+  display: flex;
+  gap: var(--gap-5xl);
+}
+.desktopHeroImageChild {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 704px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.desktopHeroImage {
+  /* align-self: stretch; */
+  height: 744px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-81xl) var(--padding-0) var(--padding-xl);
+  box-sizing: border-box;
+}
+.icon5,
+.icon6 {
+  position: absolute;
+  top: 26px;
+  left: 899px;
+  width: 119px;
+  height: 45px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.icon6 {
+  top: 33px;
+  left: 452px;
+  width: 129px;
+  height: 36px;
+}
+.icon7 {
+  height: 31.25%;
+  width: 5.21%;
+  top: 36.46%;
+  right: 51.94%;
+  bottom: 32.29%;
+  left: 42.85%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.icon10,
+.icon7,
+.icon8,
+.icon9 {
+  position: absolute;
+  overflow: hidden;
+  object-fit: cover;
+}
+.icon8 {
+  height: 36.46%;
+  width: 9.38%;
+  top: 28.13%;
+  right: 40.07%;
+  bottom: 35.42%;
+  left: 50.56%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.icon10,
+.icon9 {
+  top: 28px;
+  left: 292px;
+  width: 124px;
+  height: 34px;
+}
+.icon10 {
+  height: 25%;
+  width: 6.53%;
+  top: 37.5%;
+  right: 20.28%;
+  bottom: 37.5%;
+  left: 73.19%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.logo1 {
+  width: 1440px;
+  position: relative;
+  height: 96px;
+}
+.companydesktoployalty,
+.loyaltyhero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.companydesktoployalty {
+  overflow: hidden;
+}
+.loyaltyhero {
+  align-self: stretch;
+  padding: var(--padding-0) var(--padding-145xl) var(--padding-11xl);
+  z-index: 2;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-plus-jakarta-sans);
+}
+@media screen and (max-width: 1440px) {
+  .desktopHeroImageChild,
+  .desktoptitleIcon {
+    display: flex;
+  }
+  .desktopHeroImage {
+    padding-top: var(--padding-181xl);
+    padding-bottom: var(--padding-71xl);
+    box-sizing: border-box;
+  }
+  .companydesktoployalty,
+  .loyaltyhero {
+    display: flex;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .mobileHeroImageLoyaltyChild {
+    width: 912px;
+    height: 524px;
+  }
+  .mobileHeroImageLoyalty {
+    align-self: stretch;
+    width: auto;
+    padding-left: var(--padding-0);
+    box-sizing: border-box;
+  }
+  .desktopHeroImageChild {
+    width: 912px;
+    height: 524px;
+  }
+  .desktopHeroImage {
+    width: auto;
+    align-self: unset;
+    height: 650px;
+    padding-left: var(--padding-0);
+    padding-top: var(--padding-31xl);
+    padding-bottom: var(--padding-0);
+    box-sizing: border-box;
+  }
+  .companydesktoployalty {
+    display: flex;
+    align-self: stretch;
+    width: auto;
+  }
+  .loyaltyhero {
+    flex-direction: column;
+    padding-left: var(--padding-0);
+    padding-right: var(--padding-0);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 768px) {
+  .desktoptitleIcon {
+    width: 730px;
+  }
+  .mobileCtaButtonLoyalty {
+    display: none;
+  }
+  .mobileHeroImageLoyaltyChild {
+    display: flex;
+    height: 470px;
+  }
+  .mobileHeroImageLoyalty {
+    display: flex;
+    height: 490px;
+  }
+  .companymobile {
+    display: flex;
+    width: auto;
+    align-self: unset;
+  }
+  .desktopHeroImageChild {
+    display: flex;
+    height: 470px;
+  }
+  .desktopHeroImage {
+    display: none;
+    height: 470px;
+  }
+  .companydesktoployalty {
+    display: none;
+  }
+  .loyaltyhero {
+    flex-direction: column;
+    gap: var(--gap-xl);
+    padding-left: var(--padding-0);
+    padding-right: var(--padding-0);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 428px) {
+  .desktoptitleIcon {
+    display: none;
+  }
+  .mobileTitleIcon {
+    display: flex;
+    height: 133px;
+  }
+  .nepalsTopDigitalContainer {
+    font-size: var(--font-size-3xs);
+    line-height: 10px;
+  }
+  .getInTouch {
+    font-size: var(--font-size-base);
+  }
+  .watchAVideo {
+    font-size: var(--font-size-smi);
+  }
+  .desktopCtaButton {
+    display: none;
+  }
+  .startForFree {
+    font-size: var(--font-size-smi);
+  }
+  .mobileCtaButtonLoyalty {
+    display: flex;
+    padding-bottom: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .mobileHeroImageLoyaltyChild {
+    flex: 1;
+    height: auto;
+  }
+  .companymobile,
+  .mobileHeroImageLoyalty {
+    display: flex;
+    height: 250px;
+    padding-top: var(--padding-0);
+    box-sizing: border-box;
+  }
+  .companymobile {
+    height: 20px;
+    padding-right: var(--padding-0);
+  }
+  .loyaltyheroheader {
+    gap: var(--gap-5xl);
+  }
+  .desktopHeroImageChild {
+    flex: 1;
+  }
+  .desktopHeroImage {
+    display: none;
+    height: 250px;
+  }
+  .companydesktoployalty {
+    display: none;
+  }
+  .loyaltyhero {
+    gap: var(--gap-0);
+    padding-left: var(--padding-0);
+    padding-right: var(--padding-9xs);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 360px) {
+  .mobileTitleIcon {
+    width: 349px;
+  }
+  .companymobile {
+    display: flex;
+    width: auto;
+    align-self: unset;
+  }
+  .companydesktoployalty {
+    display: none;
+  }
+}
+
+.videoPopup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%; /* Adjust width as needed */
+  max-width: 800px; /* Maximum width for the popup */
+  max-height: 80%; /* Maximum height for the popup */
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.videoPopupClose {
+  position: fixed;
+  top: 10px; /* Adjust to position vertically */
+  right: 10px; /* Adjust to position horizontally */
+  font-size: 30px;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 1100; /* Ensure close button is above video */
+}
+
+.videoWrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 aspect ratio */
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+

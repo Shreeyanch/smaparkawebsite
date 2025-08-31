@@ -1,0 +1,138 @@
+.frameIcon {
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80vw; /* Adjust width as a percentage of viewport width */
+  height: auto; /* Allow height to scale proportionally */
+  z-index: 0;
+}
+
+.discoverAHassleFree {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+}
+
+.loyaltypricingframe {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-81xl);
+  gap: 29px;
+}
+
+.loyaltypricing {
+  align-self: stretch;
+  padding: var(--padding-108xl) var(--padding-145xl);
+  gap: 47px;
+  z-index: 5;
+}
+
+.loyaltypricing,
+.loyaltypunchline,
+.smaparkaloyaltysolution {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.loyaltypunchline {
+  align-self: stretch;
+  padding: var(--padding-108xl) var(--padding-145xl);
+  z-index: 6;
+}
+
+.smaparkaloyaltysolution {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-black);
+  gap: var(--gap-3xs);
+  text-align: center;
+  font-size: var(--font-size-18xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+
+@media screen and (max-width: 1440px) {
+  .frameIcon {
+    width: 90vw; /* Adjust to a percentage of the viewport width */
+    height: auto;
+  }
+
+  .loyaltypricing,
+  .loyaltypunchline {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .frameIcon {
+    width: 85vw; /* Adjust width to be responsive */
+    height: auto;
+  }
+
+  .discoverAHassleFree {
+    font-size: var(--font-size-11xl);
+  }
+
+  .loyaltypricingframe {
+    padding-left: var(--padding-0);
+    padding-right: var(--padding-0);
+    box-sizing: border-box;
+  }
+
+  .loyaltypricing,
+  .loyaltypunchline {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .frameIcon {
+    width: 85vw; /* Keep it responsive on smaller screens */
+    height: auto;
+  }
+
+  .discoverAHassleFree {
+    font-size: var(--font-size-11xl);
+  }
+
+  .loyaltypricing,
+  .loyaltypunchline {
+    flex-direction: column;
+    gap: var(--gap-xl);
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .frameIcon {
+    width: 90vw; /* Ensure it's not too wide on small screens */
+    height: auto;
+  }
+
+  .discoverAHassleFree {
+    font-size: var(--font-size-6xl);
+  }
+
+  .loyaltypricingframe {
+    flex-direction: column;
+    padding-left: var(--padding-0);
+    padding-right: var(--padding-0);
+    box-sizing: border-box;
+  }
+
+  .loyaltypricing,
+  .loyaltypunchline {
+    gap: var(--gap-51xl);
+    padding-left: var(--padding-xl);
+    padding-top: var(--padding-51xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

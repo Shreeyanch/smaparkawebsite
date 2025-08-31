@@ -1,0 +1,415 @@
+.desktoptitleIcon,
+.mobiletitleIcon {
+  width: 779.5px;
+  position: relative;
+  height: 286px;
+  object-fit: cover;
+}
+.mobiletitleIcon {
+  width: 351px;
+  height: 136px;
+  display: none;
+}
+.elevatingStatusWith {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 29px;
+  text-transform: capitalize;
+}
+.rectangle {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 58px);
+  border-radius: var(--br-181xl);
+  background-color: var(--color-mediumseagreen-100);
+  width: 116px;
+  height: 37px;
+  cursor: pointer;
+}
+.getInTouch {
+  position: absolute;
+  top: 3px;
+  left: calc(50% - 39px);
+  line-height: 30px;
+  font-weight: 600;
+}
+.group,
+.rectangle1 {
+  width: 116px;
+  height: 37px;
+}
+.group {
+  position: relative;
+  cursor: pointer;
+}
+.rectangle1 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 58px);
+  border-radius: var(--br-181xl);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+}
+.watchAVideo {
+  position: absolute;
+  top: 4px;
+  left: calc(50% - 47px);
+  font-size: var(--font-size-smi);
+  line-height: 30px;
+  font-weight: 600;
+  font-family: var(--font-plus-jakarta-sans);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  width: 94px;
+  height: 19px;
+}
+.group1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 116px;
+  position: relative;
+  height: 37px;
+}
+.mobileCtaButton,
+.reviewheading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xl);
+}
+.mobileCtaButton {
+  flex-direction: row;
+  font-size: var(--font-size-smi);
+  font-family: var(--font-plus-jakarta-sans);
+}
+.reviewheading {
+  align-self: stretch;
+  flex-direction: column;
+}
+.samparka91 {
+  width: 583px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+}
+.desktopHeroImagereview {
+  align-self: stretch;
+  height: 754px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-40xl) var(--padding-0) var(--padding-xl);
+  box-sizing: border-box;
+}
+.icon,
+.icon1 {
+  position: absolute;
+  top: 26px;
+  left: 899px;
+  width: 119px;
+  height: 45px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.icon1 {
+  top: 33px;
+  left: 452px;
+  width: 129px;
+  height: 36px;
+}
+.icon2 {
+  height: 31.25%;
+  width: 5.21%;
+  top: 36.46%;
+  right: 51.94%;
+  bottom: 32.29%;
+  left: 42.85%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.icon2,
+.icon3,
+.icon4,
+.icon5 {
+  position: absolute;
+  overflow: hidden;
+  object-fit: cover;
+}
+.icon3 {
+  height: 36.46%;
+  width: 9.38%;
+  top: 28.13%;
+  right: 40.07%;
+  bottom: 35.42%;
+  left: 50.56%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.icon4,
+.icon5 {
+  top: 28px;
+  left: 292px;
+  width: 124px;
+  height: 34px;
+}
+.icon5 {
+  height: 25%;
+  width: 6.53%;
+  top: 37.5%;
+  right: 20.28%;
+  bottom: 37.5%;
+  left: 73.19%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.logo {
+  width: 1440px;
+  position: relative;
+  height: 96px;
+}
+.companydesktopreview {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icon10,
+.icon6,
+.icon7,
+.icon8,
+.icon9 {
+  width: 78px;
+  position: relative;
+  height: 22px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.icon10,
+.icon7,
+.icon8,
+.icon9 {
+  width: 75px;
+  height: 19px;
+}
+.icon10,
+.icon8,
+.icon9 {
+  width: 45px;
+  height: 20px;
+}
+.icon10,
+.icon9 {
+  width: 69px;
+}
+.icon10 {
+  width: 55px;
+  height: 16px;
+}
+.companymobilereview,
+.logo1,
+.reviewhero {
+  align-items: center;
+  justify-content: center;
+}
+.logo1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-mini) var(--padding-0);
+  gap: var(--gap-8xs);
+}
+.companymobilereview,
+.reviewhero {
+  flex-direction: column;
+}
+.companymobilereview {
+  width: 1112px;
+  overflow: hidden;
+  display: none;
+  padding: var(--padding-0) var(--padding-12xs);
+  box-sizing: border-box;
+}
+.reviewhero {
+  align-self: stretch;
+  display: flex;
+  padding: var(--padding-0) var(--padding-145xl) var(--padding-11xl);
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1440px) {
+  .desktopHeroImagereview {
+    padding-top: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .desktopHeroImagereview {
+    width: auto;
+    align-self: unset;
+    height: 650px;
+    padding-left: var(--padding-0);
+    padding-top: var(--padding-31xl);
+    padding-bottom: var(--padding-0);
+    box-sizing: border-box;
+  }
+  .companydesktopreview {
+    display: flex;
+    align-self: stretch;
+    width: auto;
+  }
+  .reviewhero {
+    flex-direction: column;
+    padding-left: var(--padding-0);
+    padding-right: var(--padding-0);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 768px) {
+  .desktoptitleIcon {
+    width: 730px;
+  }
+  .mobiletitleIcon {
+    display: none;
+    width: 730px;
+  }
+  .mobileCtaButton {
+    display: none;
+  }
+  .desktopHeroImagereview {
+    display: flex;
+    height: 470px;
+  }
+  .companydesktopreview {
+    display: none;
+  }
+  .companymobilereview {
+    display: flex;
+    width: auto;
+    align-self: unset;
+  }
+  .reviewhero {
+    flex-direction: column;
+    gap: var(--gap-xl);
+    padding-left: var(--padding-0);
+    padding-right: var(--padding-0);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 428px) {
+  .desktoptitleIcon {
+    display: none;
+  }
+  .mobiletitleIcon {
+    display: flex;
+    width: 330px;
+  }
+  .elevatingStatusWith {
+    font-size: var(--font-size-3xs);
+    line-height: 10px;
+  }
+  .getInTouch {
+    font-size: var(--font-size-smi);
+  }
+  .mobileCtaButton {
+    display: flex;
+    padding-bottom: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .reviewheading {
+    gap: var(--gap-5xl);
+  }
+  .desktopHeroImagereview,
+  .samparka91 {
+    align-self: stretch;
+    width: auto;
+    height: 250px;
+  }
+  .desktopHeroImagereview {
+    display: flex;
+    height: auto;
+    padding: var(--padding-0) var(--padding-31xl) var(--padding-0);
+    box-sizing: border-box;
+    margin-bottom: 30px;
+  }
+  .companydesktopreview {
+    display: none;
+  }
+  .companymobilereview {
+    display: flex;
+    height: 20px;
+    padding-right: var(--padding-0);
+    box-sizing: border-box;
+  }
+  .reviewhero {
+    gap: var(--gap-0);
+    padding-left: var(--padding-0);
+    padding-right: var(--padding-9xs);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 360px) {
+  .companydesktopreview {
+    display: none;
+  }
+  .companymobilereview {
+    display: flex;
+    width: auto;
+    align-self: unset;
+  }
+}
+
+
+.videoPopup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%; /* Adjust width as needed */
+  max-width: 800px; /* Maximum width for the popup */
+  max-height: 80%; /* Maximum height for the popup */
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.videoPopupClose {
+  position: fixed;
+  top: 10px; /* Adjust to position vertically */
+  right: 10px; /* Adjust to position horizontally */
+  font-size: 30px;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 1100; /* Ensure close button is above video */
+}
+
+.videoWrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 aspect ratio */
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
