@@ -23,7 +23,7 @@ const Footer = ({ className = "", lETTERLOGO1, propGap }) => {
   }, []);
 
   const onItemClick = useCallback(() => {
-    window.open("https://www.instagram.com/samparka.nep/");
+    window.open("https://www.instagram.com/samparka.loyalty/");
   }, []);
 
   const onItemClick1 = useCallback(() => {
@@ -68,7 +68,7 @@ const Footer = ({ className = "", lETTERLOGO1, propGap }) => {
                 className={styles.samparkaservicesgmailcom}
                 onClick={onSamparkaservicesgmailcomTextClick}
               >
-                samparkaservices@gmail.com
+                hello@samparka.info
               </div>
               <div className={styles.anamnagarNepal}>Anamnagar, Nepal</div>
             </div>

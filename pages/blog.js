@@ -55,7 +55,10 @@ const Blog = () => {
     router.push("/points-economy");
   }, [router]);
   const onFrameLinkClick11 = useCallback(() => {
-    router.push("/cinnamon");
+    router.push("/cinnamon-garden");
+  }, [router]);
+  const onFrameLinkClick12 = useCallback(() => {
+    router.push("/katmandu-coffee");
   }, [router]);
   return (
     <div className={styles.home}>
@@ -555,6 +558,43 @@ const Blog = () => {
                     <div className={styles.shreeyanchShrestha}>Sweta Thapa</div>
                     <div className={styles.postedOnMay}>
                       Posted on July 8, 2025
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          {/*katmandu coffee economy*/}
+          <a className={styles.rectangleParent} onClick={onFrameLinkClick12}>
+            <img className={styles.frameChild} alt="" src="katmandu.jpg" />
+            <div className={styles.frameGroup}>
+              <div className={styles.frameContainer}>
+                <div className={styles.frameDiv}>
+                  <div className={styles.frameWrapper}>
+                    <div className={styles.minReadContainer}>
+                      <div className={styles.minRead}>6 min read</div>
+                    </div>
+                  </div>
+                  <b className={styles.boostYourBusiness}>
+                    Katmandu Coffee: Redefining Nepal’s Coffee Standard
+                  </b>
+                </div>
+                <div className={styles.asABusinessOwnerInNepalWrapper}>
+                  <div className={styles.asABusiness}>
+                    Coffee in Nepal has evolved. What was once a tea-first country now has a
+                     booming café culture, with consumption rising from the streets of Kathmandu
+                    to global shelves...
+                    </div>
+                </div>
+              </div>
+              <div className={styles.lineParent}>
+                <div className={styles.frameChild2} />
+                <div className={styles.articleAuthor1}>
+                  <img className={styles.avatarIcon1} alt="" src="/sweta.jpg" />
+                  <div className={styles.authorText}>
+                    <div className={styles.shreeyanchShrestha}>Sweta Thapa</div>
+                    <div className={styles.postedOnMay}>
+                      Posted on Sept 1, 2025
                     </div>
                   </div>
                 </div>
