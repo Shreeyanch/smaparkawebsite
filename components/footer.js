@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import styles from "./footer.module.css";
 
 const Footer = ({ className = "", lETTERLOGO1, propGap }) => {
-  
   const footerStyle = useMemo(() => {
     return {
       gap: propGap,
@@ -23,7 +22,7 @@ const Footer = ({ className = "", lETTERLOGO1, propGap }) => {
   }, []);
 
   const onItemClick = useCallback(() => {
-    window.open("https://www.instagram.com/samparka.nep/");
+    window.open("https://www.instagram.com/samparka.loyalty/");
   }, []);
 
   const onItemClick1 = useCallback(() => {
@@ -68,7 +67,7 @@ const Footer = ({ className = "", lETTERLOGO1, propGap }) => {
                 className={styles.samparkaservicesgmailcom}
                 onClick={onSamparkaservicesgmailcomTextClick}
               >
-                samparkaservices@gmail.com
+                hello@samparka.info
               </div>
               <div className={styles.anamnagarNepal}>Anamnagar, Nepal</div>
             </div>
