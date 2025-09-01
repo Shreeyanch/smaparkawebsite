@@ -569,7 +569,7 @@ const Blog = () => {
           </a>
           {/*katmandu coffee economy*/}
           <a className={styles.rectangleParent} onClick={onFrameLinkClick12}>
-            <img className={styles.frameChild} alt="" src="katmandu.jpg" />
+            <img className={styles.frameChild} alt="" src="katmanducover.png" />
             <div className={styles.frameGroup}>
               <div className={styles.frameContainer}>
                 <div className={styles.frameDiv}>
