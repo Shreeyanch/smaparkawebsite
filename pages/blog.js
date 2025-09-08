@@ -60,6 +60,9 @@ const Blog = () => {
   const onFrameLinkClick12 = useCallback(() => {
     router.push("/katmandu-coffee");
   }, [router]);
+  const onFrameLinkClick13 = useCallback(() => {
+    router.push("/social-lubricant-coffee");
+  }, [router]);
   return (
     <div className={styles.home}>
       <Header onHomeTextClick={onHomeTextClick} />
@@ -564,7 +567,7 @@ const Blog = () => {
               </div>
             </div>
           </a>
-          {/*katmandu coffee economy*/}
+          {/*katmandu coffee */}
           <a className={styles.rectangleParent} onClick={onFrameLinkClick12}>
             <img className={styles.frameChild} alt="" src="katmandu.jpg" />
             <div className={styles.frameGroup}>
@@ -595,6 +598,42 @@ const Blog = () => {
                     <div className={styles.shreeyanchShrestha}>Sweta Thapa</div>
                     <div className={styles.postedOnMay}>
                       Posted on Sept 1, 2025
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          {/*social lubricant coffee*/}
+          <a className={styles.rectangleParent} onClick={onFrameLinkClick13}>
+            <img className={styles.frameChild} alt="" src="katmandu.jpg" />
+            <div className={styles.frameGroup}>
+              <div className={styles.frameContainer}>
+                <div className={styles.frameDiv}>
+                  <div className={styles.frameWrapper}>
+                    <div className={styles.minReadContainer}>
+                      <div className={styles.minRead}>4 min read</div>
+                    </div>
+                  </div>
+                  <b className={styles.boostYourBusiness}>
+                    The Social Lubricant at Nya:No Specialty Coffee
+                  </b>
+                </div>
+                <div className={styles.asABusinessOwnerInNepalWrapper}>
+                  <div className={styles.asABusiness}>
+                    Every city has its heartbeat, and in Kathmandu, that rhythm often echoes inside coffee shops.
+                     Among them, The Social Lubricant at Nya:No Specialty Coffee isn’t just another café...
+                    </div>
+                </div>
+              </div>
+              <div className={styles.lineParent}>
+                <div className={styles.frameChild2} />
+                <div className={styles.articleAuthor1}>
+                  <img className={styles.avatarIcon1} alt="" src="/sweta.jpg" />
+                  <div className={styles.authorText}>
+                    <div className={styles.shreeyanchShrestha}>Sweta Thapa</div>
+                    <div className={styles.postedOnMay}>
+                      Posted on Sept 9, 2025
                     </div>
                   </div>
                 </div>
