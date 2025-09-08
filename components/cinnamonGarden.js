@@ -67,7 +67,7 @@ const cinnamon = ({ className = "" }) => {
       {/* Article Content */}
       <div className={styles.frameParent1}>
         <div className={styles.frameParent2}>
-          {/* A Gathering Place for All Section */}
+          {/* Story Behind the Brew */}
           <div className={styles.whyUpgradeParent}>
             <b className={styles.introduction}>The Story Behind the Brew</b>
             <div className={styles.digitalLoyaltySolution}>
@@ -77,29 +77,19 @@ const cinnamon = ({ className = "" }) => {
               unexpected delight that inspired a Nepali reinvention. Back home
               in Kathmandu, they experimented, replacing sea salt with locally
               sourced Himalayan pink salt to create a drink that harmonizes
-              tradition and innovation. This Himalayan Pink Salt Coffee is now
-              the café's unmistakable signature—bold, layered, and deeply
+              tradition and innovation. Today, the Himalayan Pink Salt Coffee is
+              the café’s unmistakable signature—bold, layered, and deeply
               reflective of its roots.
-              <br />
-              {/* Banner Image */}
-              <div className={styles.image33Parent}>x
-                <img
-                  className={styles.image33Icon}
-                  alt=""
-                  src="/cinnamon2.jpg"
-                />
-                <div className={styles.reviews} />
-              </div>
-              <br />
-              Step inside Cinnamon Garden and the atmosphere mirrors the
-              philosophy behind its drinks—warm, refined, and full of subtle
-              surprises. Sunlight spills across wooden textures and leafy
-              accents, creating a space that feels both modern and rooted in
-              nature. The interiors are thoughtfully designed for lingering,
-              with earthy tones, soft lighting, and quiet corners that invite
-              conversation or calm reflection. It’s the kind of place where
-              every detail—from the seating to the playlist—contributes to an
-              ambience that’s as memorable as the coffee itself.
+            </div>
+
+            {/* Image Below the Story */}
+            <div className={styles.image33Parent}>
+              <img
+                className={styles.image33Icon}
+                alt="Cinnamon Garden"
+                src="/cinnamon.png"
+              />
+              <div className={styles.reviews} />
             </div>
 
             <div className={styles.frameChild} />
@@ -109,18 +99,25 @@ const cinnamon = ({ className = "" }) => {
             />
           </div>
 
-          {/* The Piccolo Experience Section */}
+          {/* Cafe That Feels Like an Artful Pause */}
           <div className={styles.whyUpgradeParent}>
             <b className={styles.introduction}>
-              A Café That Feels Like an Artful Pause{" "}
+              A Café That Feels Like an Artful Pause
             </b>
             <div className={styles.digitalLoyaltySolution}>
-              From the moment you step inside, Cinnamon Garden feels different.
-              Its leafy corners and modern, cozy interiors are softly lit and
-              thoughtfully arranged to encourage lingering—whether you're onto
-              solo reflection or quiet conversation. Natural textures, greenery,
-              and gentle design touches blend seamlessly to create an inviting
-              ambiance that’s calming yet inspiring.
+              Step inside Cinnamon Garden and the atmosphere mirrors the
+              philosophy behind its drinks—warm, refined, and full of subtle
+              surprises. Sunlight spills across wooden textures and leafy
+              accents, creating a space that feels both modern and rooted in
+              nature. Earthy tones, soft lighting, and intimate corners make it
+              the perfect backdrop for both quiet conversations and moments of
+              self-reflection.
+              <br />
+              But Cinnamon Garden is more than just a cafe—it’s a safe space.
+              With intention and care, the cafe has built a reputation for being
+              an inclusive haven where women and the LGBTQ+ community feel
+              welcome, respected, and celebrated. Here, community matters as
+              much as coffee.
             </div>
             <div
               className={styles.anchorFrame7699}
@@ -128,18 +125,35 @@ const cinnamon = ({ className = "" }) => {
             />
           </div>
 
+          {/* Beyond Coffee Section */}
           <div className={styles.whyUpgradeParent}>
             <b className={styles.introduction}>
-              Beyond Coffee: A Hub for Creativity{" "}
+              Beyond Coffee: A Hub for Creativity & Cuisine
             </b>
             <div className={styles.digitalLoyaltySolution}>
-              Far from being a conventional café, Cinnamon Garden’s spirit
-              thrives in unexpected experiences. Here, the menu evolves with the
-              seasons, each dish and drink carrying a story—like the Salted
-              Brew, which invites a courteous pause and thoughtful taste. The
-              space also comes alive with workshops—DIY eco-soap making, mindful
-              journaling sessions, and wellness events—turning the café into a
-              controlled yet dynamic creative hub.
+              Far from being conventional, Cinnamon Garden thrives on offering
+              experiences that extend beyond the expected. The café’s menu is a
+              living story, shifting with the seasons and infused with cultural
+              curiosity.
+              <br />
+              Here, you’ll find not just Himalayan-nuanced creations but also
+              Middle Eastern specialties and flavors rarely found elsewhere in
+              Kathmandu. From mezze-inspired plates to unexpected global
+              pairings, Cinnamon Garden curates a menu that feels adventurous
+              yet familiar—a culinary journey without leaving the city.
+              <br />
+              And then, there are the community food pop-ups. Cinnamon Garden has
+              already hosted immersive culinary nights that celebrated diverse
+              traditions—like a soulful South Indian feast served on banana
+              leaves and an aromatic Pakistani dinner that brought flavors of
+              Lahore and Karachi to Kathmandu. These pop-ups transform the café
+              into a gathering place where food becomes storytelling, and
+              strangers become community.
+              <br />
+              The café also doubles as a creative hub. With wellness workshops,
+              mindful journaling sessions, and eco-conscious DIY activities,
+              Cinnamon Garden nurtures both body and mind. Each event reflects
+              the café’s ethos of cultivating curiosity and connection.
             </div>
             <div
               className={styles.anchorFrame7699}
@@ -147,30 +161,17 @@ const cinnamon = ({ className = "" }) => {
             />
           </div>
 
+          {/* What Makes Cinnamon Garden Unmistakably It */}
           <div className={styles.whyUpgradeParent}>
             <b className={styles.introduction}>
               What Makes Cinnamon Garden Unmistakably It
             </b>
             <div className={styles.digitalLoyaltySolution}>
-              <li>
-                <ol>
-                  The Himalayan Pink Salt Coffee: A textural journey of
-                  espresso, milk, and delicate pink-salted foam—smooth,
-                  surprising, and distinctly Nepali .
-                </ol>
-              </li>
-              <li>
-                <ol>
-                  Warm minimalism: Stylish but not showy, the café’s layout
-                  offers corners that coax you to sit a little longer.
-                </ol>
-              </li>
-              <li>
-                <ol>
-                  Community spirit: It's not just a stop for caffeine—it’s a
-                  space that cultivates curiosity, calm, and connection.
-                </ol>
-              </li>
+              <li>The Himalayan Pink Salt Coffee: A textural journey of espresso, milk, and delicate pink-salted foam—smooth, surprising, and distinctly Nepali.</li>
+              <li>Inclusive Community: A cafe that takes pride in being a safe, supportive space for women and the LGBTQ+ community.</li>
+              <li>Worldly Flavors: From Middle Eastern delights to pop-up food events, Cinnamon Garden brings to Kathmandu tastes you won’t find anywhere else.</li>
+              <li>Warm Minimalism: Stylish but not showy, the interiors are designed to make you feel at home while inviting you to linger.</li>
+              <li>Creative Spirit: With workshops, poetry nights, and food pop-ups, the cafe goes beyond food and drink, offering experiences that enrich.</li>
             </div>
             <div
               className={styles.anchorFrame7699}
@@ -184,12 +185,13 @@ const cinnamon = ({ className = "" }) => {
               Final Note: A Sanctuary for Curiosity
             </b>
             <div className={styles.digitalLoyaltySolution}>
-              Cinnamon Garden invites you to slow down and savor. From its
-              tasteful design to its unexpected Himalayan-nuanced flavors and
-              creative events, the café stands as a rare creative pause in a
-              city that never stops. It’s less about following café trends and
-              more about fostering moments—each cup, each interaction, gently
-              curated to linger.{" "}
+              Cinnamon Garden is not just a cafe—it’s an invitation to pause,
+              savor, and belong. With its thoughtful design, globally inspired
+              flavors, and unwavering commitment to inclusivity, it stands as
+              one of Kathmandu’s rare spaces where coffee, culture, and
+              community meet. Each sip, each plate, and each interaction is a
+              gentle reminder: this is a place designed not just to serve, but
+              to embrace.
             </div>
             <div
               className={styles.anchorFrame7699}
