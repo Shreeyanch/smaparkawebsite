@@ -2,23 +2,6 @@
   "redirects": [
     {
       "source": "/(.*)",
-      "has": [
-        {
-          "type": "host",
-          "value": "samparka.info"
-        }
-      ],
-      "destination": "https://hello.samparka.co",
-      "permanent": true
-    },
-    {
-      "source": "/(.*)",
-      "has": [
-        {
-          "type": "host",
-          "value": "hello.samparka.co"
-        }
-      ],
       "destination": "https://hello.samparka.co",
       "permanent": true
     }
