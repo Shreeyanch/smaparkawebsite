@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YZ0KSMEY1W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "G-YZ0KSMEY1W");
+  </script>
+
+  <meta charset="UTF-8" />
+
+  <!-- Preconnect hints -->
+  <link rel="preconnect" href="https://s3-np1.datahub.com.np" crossorigin />
+  <link rel="preconnect" href="https://www.googletagmanager.com" />
+  <link rel="preconnect" href="https://server.samparka.co" />
+
+  <!-- Primary SEO -->
+  <title>Branded Loyalty App or WhatsApp Loyalty | Samparka</title>
+  <meta name="description"
+    content="Turn first-time customers into regulars with your own loyalty app or WhatsApp rewards. Easy setup live in minutes." />
+  <link rel="canonical" href="https://samparka.co" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://samparka.co" />
+  <meta property="og:title" content="Branded Loyalty App or WhatsApp Loyalty | Samparka" />
+  <meta property="og:description" content="Turn first-time customers into regulars with your own loyalty app or WhatsApp rewards. Easy setup live in minutes." />
+  <meta property="og:image" content="https://samparka.co/landingPage/images/hero/desktop.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Branded Loyalty App or WhatsApp Loyalty | Samparka" />
+  <meta name="twitter:description" content="Turn first-time customers into regulars with your own loyalty app or WhatsApp rewards. Easy setup live in minutes." />
+  <meta name="twitter:image" content="https://samparka.co/landingPage/images/hero/desktop.png" />
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://samparka.co/#organization",
+        "name": "Samparka",
+        "url": "https://samparka.co",
+        "logo": "https://samparka.co/images/logo/logo_white.png"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://samparka.co/#website",
+        "url": "https://samparka.co",
+        "name": "Samparka",
+        "publisher": { "@id": "https://samparka.co/#organization" }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "Samparka",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "offers": { "@type": "Offer", "availability": "https://schema.org/InStock" },
+        "publisher": { "@id": "https://samparka.co/#organization" }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Mobile & UI -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Favicon (IMPORTANT) -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <!-- Apple touch icon will be set dynamically based on subdomain -->
+</head>
+
+<body style="background-color: #1e1b1a">
+  <div id="root"></div>
+  <!-- Capture beforeinstallprompt before React mounts — useEffect runs too late -->
+  <script>
+    window.addEventListener('beforeinstallprompt', function(e) {
+      e.preventDefault();
+      window.__installPrompt = e;
+    });
+  </script>
+  <script type="module" src="/src/main.jsx"></script>
+  <script>
+    // Set dynamic apple-touch-icon based on subdomain (for iOS PWA)
+    (function () {
+      const hostname = window.location.hostname;
+      const subdomain = hostname.split(".")[0];
+      const serverOrigin = "https://server.samparka.co";
+
+      // Only set custom icon if on a subdomain (not main samparka.co)
+      if (
+        subdomain &&
+        subdomain !== "samparka" &&
+        subdomain !== "www" &&
+        subdomain !== "localhost"
+      ) {
+        // Create apple-touch-icon link
+        const appleIcon = document.createElement("link");
+        appleIcon.rel = "apple-touch-icon";
+        appleIcon.href = `${serverOrigin}/apple-touch-icon/${subdomain}.png`;
+        document.head.appendChild(appleIcon);
+
+        // Also create multiple sizes for better iOS compatibility
+        const appleIcon120 = document.createElement("link");
+        appleIcon120.rel = "apple-touch-icon";
+        appleIcon120.sizes = "120x120";
+        appleIcon120.href = `${serverOrigin}/apple-touch-icon/${subdomain}.png`;
+        document.head.appendChild(appleIcon120);
+
+        const appleIcon152 = document.createElement("link");
+        appleIcon152.rel = "apple-touch-icon";
+        appleIcon152.sizes = "152x152";
+        appleIcon152.href = `${serverOrigin}/apple-touch-icon/${subdomain}.png`;
+        document.head.appendChild(appleIcon152);
+
+        const appleIcon180 = document.createElement("link");
+        appleIcon180.rel = "apple-touch-icon";
+        appleIcon180.sizes = "180x180";
+        appleIcon180.href = `${serverOrigin}/apple-touch-icon/${subdomain}.png`;
+        document.head.appendChild(appleIcon180);
+
+        // Manifest link — required for Chrome's beforeinstallprompt to fire
+        const manifestLink = document.createElement("link");
+        manifestLink.rel = "manifest";
+        manifestLink.href = `${serverOrigin}/manifest.json?subdomain=${subdomain}`;
+        document.head.appendChild(manifestLink);
+      } else if (hostname === "localhost" || hostname === "127.0.0.1") {
+        // Dev: use ?store= query param to load manifest for testing
+        const storeParam = new URLSearchParams(window.location.search).get("store");
+        if (storeParam) {
+          const manifestLink = document.createElement("link");
+          manifestLink.rel = "manifest";
+          manifestLink.href = `${serverOrigin}/manifest.json?subdomain=${storeParam}`;
+          document.head.appendChild(manifestLink);
+        }
+      }
+    })();
+
+    // Only register the Service Worker in production (not on localhost).
+    // On localhost, the SW conflicts with Vite's HMR and causes unexpected reloads.
+    const isLocalhost = ["localhost", "127.0.0.1"].includes(window.location.hostname);
+    if ("serviceWorker" in navigator && !isLocalhost) {
+      navigator.serviceWorker
+        .register("/service-worker.js")
+        .then((registration) => {
+          console.log("Service Worker registered successfully.");
+
+          // Check for updates immediately
+          registration.update().then(() => {
+            console.log('SW update check complete');
+          });
+
+          // Listen for new service worker installing
+          registration.addEventListener('updatefound', () => {
+            const newWorker = registration.installing;
+            console.log('New service worker found, installing...');
+
+            newWorker.addEventListener('statechange', () => {
+              if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                console.log('New service worker installed, will activate when tabs closed');
+                // Optionally show UI to user: "Update available - please close all tabs to refresh"
+              }
+            });
+          });
+        })
+        .catch((err) =>
+          console.log("Service Worker registration failed:", err)
+        );
+    }
+  </script>
+</body>
+
+</html>
