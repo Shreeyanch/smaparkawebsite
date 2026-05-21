@@ -1,0 +1,193 @@
+.line {
+  width: 46px;
+  margin-bottom: 4px;
+  position: relative;
+  border-radius: 4px;
+  background-color: #6c5b5b;
+  height: 3px;
+}
+.xIcon {
+  width: 25px;
+  position: relative;
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.xWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0px 10px;
+}
+.vectorIcon {
+  width: 70px;
+  position: relative;
+  max-height: 100%;
+}
+.rewardSvgrepoCom1 {
+  align-self: stretch;
+  height: 101px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 12px;
+  box-sizing: border-box;
+}
+.bonusPoints {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+.earnBonusPoints {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+}
+.earnBonusPointsOnEligibleWrapper {
+  align-self: stretch;
+  /* height: 23px; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+}
+.rewardSvgrepoCom1Parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 20px;
+  gap: 28px;
+  font-size: 24px;
+}
+.vectorIcon1 {
+  width: 18px;
+  position: relative;
+  height: 20.3px;
+}
+.svgrepoIconcarrier {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.silverElite {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+}
+.svgrepoIconcarrierParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.bonusPoints1 {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  text-align: right;
+}
+.frameGroup {
+  align-self: stretch;
+  height: 23px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.frameParent {
+  align-self: stretch;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0px 20px;
+  gap: 13px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+}
+.toBeEligible {
+  align-self: stretch;
+  position: relative;
+}
+.aptapt {
+  align-self: stretch;
+  border-radius: 16px 16px 0px 0px;
+  background-color: #6c5b5b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 20px 41px;
+  box-sizing: border-box;
+  gap: 28px;
+  opacity: 0;
+  width: 100%;
+  min-height: 90%;
+  overflow: auto;
+}
+.aptapt.animate {
+  animation: 0.25s ease 0s 1 normal forwards slide-in-bottom;
+}
+
+@keyframes slide-in-bottom {
+  0% {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.rewardDescription {
+  width: 100%;
+  position: fixed; /* Fix it at the bottom */
+  bottom: 0; /* Stick to the bottom */
+  left: 0; /* Start from the left */
+  overflow: hidden; /* Hide any overflow */
+  z-index: 1000; /* Make sure it appears above other content */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+  opacity: 0;
+  max-height: 90%;
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+  font-family: Poppins;
+}
+.rewardDescription.animate {
+  animation: 0.25s ease 0s 1 normal forwards slide-in-bottom;
+}
+
+@media screen and (max-width: 480px) {
+  .earnBonusPoints {
+    font-size: 13px;
+  }
+
+  .silverElite {
+    font-size: 12px;
+  }
+
+  .bonusPoints1 {
+    font-size: 12px;
+  }
+
+  .toBeEligible {
+    font-size: 13px;
+  }
+}

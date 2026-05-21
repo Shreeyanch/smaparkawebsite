@@ -1,0 +1,30 @@
+/* Add this in your global styles or in a custom Tailwind configuration */
+.toggle-switch {
+  appearance: none;
+  width: 40px;
+  height: 20px;
+  background-color: #ccc;
+  border-radius: 9999px;
+  position: relative;
+  transition: background-color 0.3s;
+}
+
+.toggle-switch:checked {
+  background-color: #4caf50;
+}
+
+.toggle-switch:before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  border-radius: 9999px;
+  background-color: white;
+  transition: transform 0.3s;
+}
+
+.toggle-switch:checked:before {
+  transform: translateX(20px);
+}
