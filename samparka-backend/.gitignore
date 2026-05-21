@@ -1,0 +1,12 @@
+node_modules
+.env
+yarn.lock
+google-analytics
+*.zip
+*.tar.gz
+dbimp.js
+
+# Google Cloud Service Account Credentials
+src/config/credentials/
+*-service-account.json
+google-vision-*.json
