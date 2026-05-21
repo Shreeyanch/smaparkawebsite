@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Disallow: /dashboard
+Disallow: /store/
+Disallow: /login
+Disallow: /register
+Disallow: /customers
+Disallow: /billing
+Disallow: /rewards
+Disallow: /campaigns
+Disallow: /analytics
+Disallow: /whatsapp
+Disallow: /outlets
+Disallow: /staff
+Disallow: /flyer
+
+Sitemap: https://samparka.co/sitemap.xml

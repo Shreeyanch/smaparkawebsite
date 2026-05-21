@@ -1,0 +1,15 @@
+# Samparka
+
+> White-label loyalty platform for restaurants, cafés, and salons in Nepal and India.
+
+Samparka helps businesses run branded customer loyalty programs via NFC tap, QR codes, or WhatsApp — no app download required for customers.
+
+## Key pages
+- [Home](https://samparka.co/): Product overview
+- [Blog](https://samparka.co/blog): Case studies and guides
+
+## Case studies
+- [Caffeophilia](https://samparka.co/blog/caffeophilia-case-study): 30% repeat visit increase
+- [TheNewBarber](https://samparka.co/blog/thenewbarber-digital-loyalty-grooming-success): 45% revenue growth
+- [Cinnamon Garden](https://samparka.co/blog/cinnamon-garden-loyalty-case-study)
+- [Mira Boulangerie](https://samparka.co/blog/mira-boulangerie-loyalty-case-study)
